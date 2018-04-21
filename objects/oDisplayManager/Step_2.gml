@@ -18,8 +18,8 @@ if instance_exists(oCamera) {
 
 
 //Clamp the camera to not be able to move outside the room
-//global.view_x = clamp(global.view_x, 0, room_width - global.view_w);
-//global.view_y = clamp(global.view_y, 0, room_height - global.view_h);
+global.view_x = clamp(global.view_x, 0, room_width - global.view_w);
+global.view_y = clamp(global.view_y, 0, room_height - global.view_h);
 
 
 var _round = global.view_w/surface_get_width(application_surface);

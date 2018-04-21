@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "33a03b54-025c-4d8b-ae47-e867a1322fb8",
+            "Value": {
+                "id": "ddd8e19d-8e6b-4bbb-b5b6-0abd2f466e2f",
+                "resourcePath": "fonts\\fntAddisAbaba\\fntAddisAbaba.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "39dcd0e5-3d06-4f9c-a336-9438a2ea9f0b",
             "Value": {
                 "id": "4c188f37-ed19-44b3-a537-71716219ec5b",
@@ -155,6 +163,14 @@
             "Value": {
                 "id": "1bbf126a-e7c1-44e1-8403-92f9248250ed",
                 "resourcePath": "objects\\oPlayerController\\oPlayerController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "47bb140f-9f3a-4596-8e5d-1f01a34af4d7",
+            "Value": {
+                "id": "a0c5ef8f-4aee-4b10-8283-1fc0ca994f5d",
+                "resourcePath": "objects\\oFinishLine\\oFinishLine.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -212,6 +228,14 @@
                 "id": "f7265ebe-5631-4705-9a68-5b18d18cbd3a",
                 "resourcePath": "rooms\\rmSetup\\rmSetup.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6670d762-12e5-4cff-97c9-a1dc6633eca2",
+            "Value": {
+                "id": "d2e9c52f-3505-46ef-9c1b-564657693438",
+                "resourcePath": "scripts\\draw_set_text\\draw_set_text.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,10 +303,26 @@
             }
         },
         {
+            "Key": "7db1daf9-4248-4dd3-9adf-d6c5b0b8b8b0",
+            "Value": {
+                "id": "b31f3509-83f9-4b8f-828b-2a3db039555a",
+                "resourcePath": "objects\\oItemController\\oItemController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8146598a-1696-4298-9d10-f74cbe4fd478",
             "Value": {
                 "id": "0186b9ee-90fa-4dd2-81f9-48fe08c17e90",
                 "resourcePath": "sprites\\sprCollisionMaskx64\\sprCollisionMaskx64.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "84d8237b-0b7b-4550-9bd5-d6a27f923fda",
+            "Value": {
+                "id": "74b560a8-42cf-4363-a221-12c7ae7deebe",
+                "resourcePath": "sprites\\sprFinishLine\\sprFinishLine.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -403,7 +443,8 @@
         "521685af-d5ca-4e96-9d81-376ace0e2ad5",
         "00907864-1ff9-4ab8-9caf-cd7ee60488e6",
         "b47437e7-c94b-4fca-a9ee-1ebf4edb4e7a",
-        "31e8fbf3-7715-4018-a826-14e73ce76030"
+        "31e8fbf3-7715-4018-a826-14e73ce76030",
+        "6670d762-12e5-4cff-97c9-a1dc6633eca2"
     ],
     "tutorial": ""
 }
