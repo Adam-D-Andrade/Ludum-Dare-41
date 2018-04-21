@@ -10,3 +10,4 @@ FadeIn = true;
 FadeOut = false;
 
 global.LapCount++;
+
