@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "050b6046-6692-43ac-bad6-35ebc9fce2a2",
+            "Value": {
+                "id": "2521e5d2-8357-4762-8f8c-4d11459039b1",
+                "resourcePath": "scripts\\asdf\\asdf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c5e4bc7-3b90-45ab-9434-de30c68eedb3",
             "Value": {
                 "id": "81a7ef11-40c5-4f98-aa0e-cd08823fdc42",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "fa061fbe-296f-4127-8ad3-a7aa89ee5c7b",
+            "Value": {
+                "id": "7dfc13ef-f2a7-4002-bb32-2d51e34bd9bb",
+                "resourcePath": "objects\\oInteractFertileSoil\\oInteractFertileSoil.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa9b13d1-c6a3-48ab-8803-38535b9b6b7b",
             "Value": {
                 "id": "4c649d04-0464-42a1-b960-5c4119c5ff90",
@@ -541,14 +557,6 @@
                 "resourcePath": "sprites\\sprWateringCan\\sprWateringCan.yy",
                 "resourceType": "GMSprite"
             }
-        },
-        {
-            "Key": "fea493b7-d7a3-4dc8-9b2e-4c38deb349b6",
-            "Value": {
-                "id": "e64a8923-5c3e-43d1-958a-e48accb82fdf",
-                "resourcePath": "scripts\\asdf\\asdf.yy",
-                "resourceType": "GMScript"
-            }
         }
     ],
     "script_order": [
@@ -557,7 +565,7 @@
         "b47437e7-c94b-4fca-a9ee-1ebf4edb4e7a",
         "31e8fbf3-7715-4018-a826-14e73ce76030",
         "6670d762-12e5-4cff-97c9-a1dc6633eca2",
-        "fea493b7-d7a3-4dc8-9b2e-4c38deb349b6"
+        "050b6046-6692-43ac-bad6-35ebc9fce2a2"
     ],
     "tutorial": ""
 }
