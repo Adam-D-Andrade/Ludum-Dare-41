@@ -82,7 +82,7 @@
             "Key": "2136b85b-0443-4f3c-93da-bd66c9526fc1",
             "Value": {
                 "id": "a14774ed-a02f-4648-a254-206851e4edc6",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm\\rm.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "31e8fbf3-7715-4018-a826-14e73ce76030",
+            "Value": {
+                "id": "90ad27e8-25ad-4782-8b4f-b91393c24309",
+                "resourcePath": "scripts\\round_n\\round_n.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "339dcc88-ee3d-4581-874e-d3d6c9ec0c63",
             "Value": {
                 "id": "7e3f67c7-c3db-4607-81e8-6e5cc232a068",
@@ -132,6 +140,14 @@
                 "id": "4c188f37-ed19-44b3-a537-71716219ec5b",
                 "resourcePath": "views\\39dcd0e5-3d06-4f9c-a336-9438a2ea9f0b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4649bf2b-093f-42f4-b065-755778fb7fb0",
+            "Value": {
+                "id": "1bbf126a-e7c1-44e1-8403-92f9248250ed",
+                "resourcePath": "objects\\oPlayerController\\oPlayerController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -247,6 +263,22 @@
             }
         },
         {
+            "Key": "8d444ec1-a0fc-49dd-b0e0-3241512abc8e",
+            "Value": {
+                "id": "567a1ddf-f07b-4a4e-a652-fe5311dd95df",
+                "resourcePath": "objects\\oDisplayManager\\oDisplayManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9b68a0d6-00f9-4af8-894c-6c030b6c8108",
+            "Value": {
+                "id": "385e0219-7926-4307-ab91-1321ff1fe34c",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a1cb9718-30e9-44e8-931a-226e9c77dfba",
             "Value": {
                 "id": "0fbbee87-fe7d-413a-a8dd-91f5670bb708",
@@ -260,6 +292,14 @@
                 "id": "6f9929f6-4926-47d0-ba7f-0b14c0e2a86d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b47437e7-c94b-4fca-a9ee-1ebf4edb4e7a",
+            "Value": {
+                "id": "d528b755-b27d-43cc-b33d-8a077f692c9e",
+                "resourcePath": "scripts\\script2\\script2.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -305,7 +345,9 @@
     ],
     "script_order": [
         "521685af-d5ca-4e96-9d81-376ace0e2ad5",
-        "00907864-1ff9-4ab8-9caf-cd7ee60488e6"
+        "00907864-1ff9-4ab8-9caf-cd7ee60488e6",
+        "b47437e7-c94b-4fca-a9ee-1ebf4edb4e7a",
+        "31e8fbf3-7715-4018-a826-14e73ce76030"
     ],
     "tutorial": ""
 }
