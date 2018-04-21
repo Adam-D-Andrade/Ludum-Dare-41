@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "f22324d7-d687-4e8d-a438-8e0d4faa092e",
+            "Value": {
+                "id": "7440cbc3-e724-4ffd-af12-54c0110640e6",
+                "resourcePath": "sprites\\Skybox\\Skybox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "a83ce218-1e0d-4d20-9550-20ddd6023dcf",
