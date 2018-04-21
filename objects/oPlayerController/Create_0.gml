@@ -8,9 +8,9 @@ yscale = image_yscale;
 xscale = image_xscale;
 	
 //States & Variables
-state = "IDLE";
+ActiveItem = -1;
     
-    
+   
 ///Declare states
 direc           = 0;
 Attack          = false;
