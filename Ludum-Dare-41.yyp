@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "fa061fbe-296f-4127-8ad3-a7aa89ee5c7b",
+            "Value": {
+                "id": "7dfc13ef-f2a7-4002-bb32-2d51e34bd9bb",
+                "resourcePath": "objects\\oInteractFertileSoil\\oInteractFertileSoil.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa9b13d1-c6a3-48ab-8803-38535b9b6b7b",
             "Value": {
                 "id": "4c649d04-0464-42a1-b960-5c4119c5ff90",
