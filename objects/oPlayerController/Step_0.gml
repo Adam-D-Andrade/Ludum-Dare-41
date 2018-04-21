@@ -7,23 +7,54 @@
 
 ///old move code
 //Move Right
-if (global.InputRight) { 
-    xsp += movespeed;
+if (keyboard_check(vk_right)) { 
+    //xsp = Approach(xsp, max_xsp, movespeed);
+	xsp += movespeed;
 }
-else if (xsp > 0){
-    if (xsp <= fric) {xsp = 0;}
-    xsp-=fric;
+else {
+	if (global.Horizontal){
+		if (global.MovingRight){
+			xsp = Approach(xsp, global.ScrollSpeed, movespeed);
+		}
+		else {
+			xsp = Approach(xsp, -global.ScrollSpeed, movespeed);
+		}
+	}
+	else {
+		xsp = Approach(xsp, 0, movespeed);
+	}
 } 
    
 //could change all this code using Approach();
 //Move Left
-if (global.InputLeft){
-    xsp -= movespeed;
+//if (global.InputLeft){
+//    xsp -= movespeed;
+//}
+//else if (xsp < 0) {
+//    if (xsp >= fric) {xsp = 0;}
+//    xsp += fric; 
+//}    
+
+if (keyboard_check(vk_left)) { 
+    //xsp = Approach(xsp, -max_xsp, movespeed);
+	xsp -= movespeed;
 }
-else if (xsp < 0) {
-    if (xsp >= fric) {xsp = 0;}
-    xsp += fric; 
-}    
+else {
+	//Check to see if the level is right to left or left to right
+	if (global.Horizontal){
+		if (global.MovingRight){
+			xsp = Approach(xsp, global.ScrollSpeed, movespeed);
+		}
+		else {
+			xsp = Approach(xsp, -global.ScrollSpeed, movespeed);
+		}
+	}
+	//Were moving up and down so return it to 0
+	else {
+		xsp = Approach(xsp, 0, movespeed);
+	}
+} 
+
 
 //Not sure wtf this is doing?
 if (global.InputRight && global.InputLeft){

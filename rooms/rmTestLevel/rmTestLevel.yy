@@ -1,8 +1,8 @@
 
 {
-    "name": "rm",
+    "name": "rmTestLevel",
     "id": "2136b85b-0443-4f3c-93da-bd66c9526fc1",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -19,7 +19,7 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -58,7 +58,7 @@
             },
             "tilesetId": "6a2cc07b-7ed2-487a-b5e2-709111173b4b",
             "userdefined_depth": false,
-            "visible": true,
+            "visible": false,
             "x": 0,
             "y": 0
         },

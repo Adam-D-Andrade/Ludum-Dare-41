@@ -17,20 +17,30 @@ Attack          = false;
 precision       = 1;
 
 //Declare variables
-xsp = 0;
-ysp = 0;
-    
-max_xsp = 10;
-max_ysp = 10;
-    
+if (global.Horizontal){
+	if (global.MovingRight) {
+		xsp = global.ScrollSpeed; 
+	}
+	else {
+		xsp = -global.ScrollSpeed
+	}
+	ysp = 0;
+}
+else {
+	if (global.MovingUp) {
+		ysp = -global.ScrollSpeed;
+	}
+	else {
+		ysp = global.ScrollSpeed;
+	}
+	xsp = 0;
+}
 
-move_dir = 1;
-movespeed = 2;
-fric = 0.6;
-
-hittop = 0;
-falling = 0;
-direc = 0;
+    
+max_xsp = 20;
+max_ysp = 20;
+    
+movespeed = 4;
     
 ///Get Tile Map
 var l = layer_get_id("CollisionMap");

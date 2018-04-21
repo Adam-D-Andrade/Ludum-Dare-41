@@ -1,0 +1,14 @@
+
+
+Watch this tutorial on tiles and try to come up with a tileset that we can spread on the ground, 
+we can alternatively do it manually
+------https://www.youtube.com/watch?v=j3cQn3aMGX8
+
+We will likely need the ground tile set to also be seemless with the "walls" tiles
+
+
+
+Also if you have time dig into the tile collision code and see if you can make a system that checks if the player is 
+on top of a specific tile or tile map? Text me if you have questions.
+
+movement is a little fucked and needs to be tweaked still

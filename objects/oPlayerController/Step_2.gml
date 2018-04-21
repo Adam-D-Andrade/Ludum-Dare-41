@@ -61,6 +61,7 @@ else {
 
 //COMMIT TO CHANGES IN X COORDINATES
 //apply xsp value to x coordinate
+
     x += xsp;
 
 //Moving Right

@@ -11,7 +11,7 @@ save and load the players previous settings
 ///////////////////////////////////////////////////////////////////
 
 ideal_width = 0;
-ideal_height = 640;
+ideal_height = 768;
 
 //The higher the zoom the bigger the window
 zoom = 1;

@@ -1,16 +1,33 @@
 
 MakeUnique();
+
+
+
+
 //Move Camera when player exists
 
-if instance_exists(oPlayer)
-{
-
-	x = oPlayer.x;
-	y = oPlayer.y;
-    
+if instance_exists(oPlayer){
+	if (global.Horizontal){
+		y = oPlayer.y;
+		if global.MovingRight{	
+			x += global.ScrollSpeed;
+		}
+		else {
+			x -= global.ScrollSpeed;
+		}
+	}
+	else {
+		x = oPlayer.x;
+		if global.MovingUp{	
+			y -= global.ScrollSpeed;
+		}
+		else {
+			y += global.ScrollSpeed;
+		}		
+	}
 }
-    
-	
+
+
 /* */
 ///Screen Shake
     if intensity != 0

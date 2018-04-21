@@ -82,7 +82,7 @@
             "Key": "2136b85b-0443-4f3c-93da-bd66c9526fc1",
             "Value": {
                 "id": "a14774ed-a02f-4648-a254-206851e4edc6",
-                "resourcePath": "rooms\\rm\\rm.yy",
+                "resourcePath": "rooms\\rmTestLevel\\rmTestLevel.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -372,6 +372,14 @@
                 "id": "a83ce218-1e0d-4d20-9550-20ddd6023dcf",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa9b13d1-c6a3-48ab-8803-38535b9b6b7b",
+            "Value": {
+                "id": "4c649d04-0464-42a1-b960-5c4119c5ff90",
+                "resourcePath": "notes\\READ THIS FOREST.yy",
+                "resourceType": "GMNotes"
             }
         }
     ],
