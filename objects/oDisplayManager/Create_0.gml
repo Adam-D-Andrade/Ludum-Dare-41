@@ -10,12 +10,12 @@ save and load the players previous settings
 */
 ///////////////////////////////////////////////////////////////////
 
-ideal_width = 640;
-ideal_height = 360;
+ideal_width = 0;
+ideal_height = 640;
 
 //The higher the zoom the bigger the window
 zoom = 1;
-max_zoom = 1;
+max_zoom = 10;
 display_width = display_get_width();
 display_height = display_get_height();
 
@@ -46,9 +46,10 @@ if(ideal_height & 1) {ideal_height++;}
 //Calculate Max Zoom
 max_zoom = floor(display_width/ideal_width);  //1600 / 1366 = 1.17
 
-surface_resize(application_surface,ideal_width,ideal_height);
-display_set_gui_size(ideal_width,ideal_height);
 window_set_size(ideal_width,ideal_height);
+display_set_gui_size(ideal_width,ideal_height);
+surface_resize(application_surface,ideal_width * zoom,ideal_height * zoom);
+
 alarm[0]=1; //Sorry.  This line got left out of the tutorial vid.  This will center the window after the initial resizing.
 
 //Create camera

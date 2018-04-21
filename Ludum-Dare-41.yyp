@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "573bed33-ca32-429e-8d52-a00d879f24d9",
+            "Value": {
+                "id": "915f1a40-d340-414b-8a8d-f2b879f2c288",
+                "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "573c219c-4c82-480a-b070-b4785b5f35b6",
             "Value": {
                 "id": "fe830024-6a5e-4bf2-b42c-c43c4094c44b",
@@ -188,6 +196,14 @@
                 "id": "cc51f078-acde-4312-8b1d-888b66dbbe6c",
                 "resourcePath": "sprites\\sprTileSetx64\\sprTileSetx64.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d676a02-9b7d-4542-9891-569cee4ab398",
+            "Value": {
+                "id": "f7265ebe-5631-4705-9a68-5b18d18cbd3a",
+                "resourcePath": "rooms\\rmSetup\\rmSetup.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -220,6 +236,14 @@
                 "id": "ee44bd6e-0620-4f42-bfa3-8392a4daaddd",
                 "resourcePath": "tilesets\\tsCollisionMaskx64\\tsCollisionMaskx64.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "6c212d04-4c1f-4016-9f44-5e83bb100734",
+            "Value": {
+                "id": "bcd011a5-bcec-4f5a-8879-7560fb8c6a7a",
+                "resourcePath": "sprites\\sprFreeDogMan\\sprFreeDogMan.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -298,7 +322,7 @@
             "Key": "b47437e7-c94b-4fca-a9ee-1ebf4edb4e7a",
             "Value": {
                 "id": "d528b755-b27d-43cc-b33d-8a077f692c9e",
-                "resourcePath": "scripts\\script2\\script2.yy",
+                "resourcePath": "scripts\\MakeUnique\\MakeUnique.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -316,6 +340,14 @@
                 "id": "965b9a79-3cfa-4216-9f25-b1bc27f8af14",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d3bde9e5-baee-4faa-b0fb-e1497ee72afa",
+            "Value": {
+                "id": "af7c7fdf-f16f-45bb-a14a-2b22859c208c",
+                "resourcePath": "views\\d3bde9e5-baee-4faa-b0fb-e1497ee72afa.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
