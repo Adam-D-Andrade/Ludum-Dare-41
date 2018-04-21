@@ -31,11 +31,35 @@
     },
     "resources": [
         {
+            "Key": "0c5e4bc7-3b90-45ab-9434-de30c68eedb3",
+            "Value": {
+                "id": "81a7ef11-40c5-4f98-aa0e-cd08823fdc42",
+                "resourcePath": "objects\\oController\\oController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1225d505-b47b-43ab-86c1-01a720e39851",
+            "Value": {
+                "id": "35ebd5a7-10a8-418e-b1f7-692b8393c342",
+                "resourcePath": "sprites\\sprCollisionMaskx32\\sprCollisionMaskx32.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1831237f-df6c-4b50-8a94-12116b7704df",
             "Value": {
                 "id": "1b439f2e-709a-438c-9ab1-115053f26f1d",
                 "resourcePath": "views\\1831237f-df6c-4b50-8a94-12116b7704df.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1c2f6cfb-af86-4125-9c58-fdcaa3258e84",
+            "Value": {
+                "id": "a74bbd02-cf8b-412b-bb19-7b0abb63af76",
+                "resourcePath": "sprites\\sprTileSetx32\\sprTileSetx32.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -60,6 +84,22 @@
                 "id": "c4ca7e9a-782a-4a06-8326-57c963746534",
                 "resourcePath": "views\\27c40e82-378f-4bf9-aeea-95e80621d89a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "291e5da3-8197-4ffa-9982-bed998e193bf",
+            "Value": {
+                "id": "a6dbabfa-da56-4e22-97dd-ebc62d6ebf3d",
+                "resourcePath": "tilesets\\tsCollisionMaskx32\\tsCollisionMaskx32.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "2e0c154c-5c59-41d0-b8d3-a05389b89744",
+            "Value": {
+                "id": "ee79211d-90f3-467a-8c02-f8c94a2a1b58",
+                "resourcePath": "tilesets\\tsBasicx32\\tsBasicx32.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -95,6 +135,22 @@
             }
         },
         {
+            "Key": "4c060ef4-385c-47f7-b57e-c792e9761ae5",
+            "Value": {
+                "id": "f0626e81-9264-4932-9c2b-27919bd454fd",
+                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "521685af-d5ca-4e96-9d81-376ace0e2ad5",
+            "Value": {
+                "id": "71a2ff55-3453-4371-9307-69f2030b41e2",
+                "resourcePath": "scripts\\InitGameInput\\InitGameInput.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "573c219c-4c82-480a-b070-b4785b5f35b6",
             "Value": {
                 "id": "fe830024-6a5e-4bf2-b42c-c43c4094c44b",
@@ -103,11 +159,35 @@
             }
         },
         {
+            "Key": "5acbf8dd-91a8-4cce-b8a6-e96b0d65c433",
+            "Value": {
+                "id": "cc51f078-acde-4312-8b1d-888b66dbbe6c",
+                "resourcePath": "sprites\\sprTileSetx64\\sprTileSetx64.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "685c7084-1f01-4f0b-bf24-cbc75e74b0f0",
             "Value": {
                 "id": "54e203ed-08a1-4016-86df-8167dcdb8291",
                 "resourcePath": "views\\685c7084-1f01-4f0b-bf24-cbc75e74b0f0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "68b097c4-319f-4f96-8f51-0b6baf926786",
+            "Value": {
+                "id": "499d4373-80bc-4acd-be90-fe2e3fb4f603",
+                "resourcePath": "objects\\oPlayerController\\oPlayerController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6a2cc07b-7ed2-487a-b5e2-709111173b4b",
+            "Value": {
+                "id": "ee44bd6e-0620-4f42-bfa3-8392a4daaddd",
+                "resourcePath": "tilesets\\tsCollisionMaskx64\\tsCollisionMaskx64.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -135,11 +215,27 @@
             }
         },
         {
+            "Key": "8146598a-1696-4298-9d10-f74cbe4fd478",
+            "Value": {
+                "id": "0186b9ee-90fa-4dd2-81f9-48fe08c17e90",
+                "resourcePath": "sprites\\sprCollisionMaskx64\\sprCollisionMaskx64.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8896979e-144d-4b88-bd79-1b530278f906",
             "Value": {
                 "id": "785dc3f4-eb6c-47da-8c6c-3b105a6cb52a",
                 "resourcePath": "views\\8896979e-144d-4b88-bd79-1b530278f906.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a1cb9718-30e9-44e8-931a-226e9c77dfba",
+            "Value": {
+                "id": "0fbbee87-fe7d-413a-a8dd-91f5670bb708",
+                "resourcePath": "tilesets\\tsBasicx64\\tsBasicx64.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -192,7 +288,7 @@
         }
     ],
     "script_order": [
-        
+        "521685af-d5ca-4e96-9d81-376ace0e2ad5"
     ],
     "tutorial": ""
 }
