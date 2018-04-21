@@ -343,11 +343,27 @@
             }
         },
         {
+            "Key": "94fec452-5219-487e-8462-003f148cce41",
+            "Value": {
+                "id": "dba53fc0-75eb-4923-ae48-5d4611ce86c7",
+                "resourcePath": "tilesets\\tsEnhancedDirt64\\tsEnhancedDirt64.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "9b68a0d6-00f9-4af8-894c-6c030b6c8108",
             "Value": {
                 "id": "385e0219-7926-4307-ab91-1321ff1fe34c",
                 "resourcePath": "objects\\oCamera\\oCamera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9d4e2378-2982-4d68-b27d-c140c5b66fef",
+            "Value": {
+                "id": "3b446a83-21bd-42af-9514-4ec5ddc8efdc",
+                "resourcePath": "sprites\\sprEnhancedDirtTileSetx64\\sprEnhancedDirtTileSetx64.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
