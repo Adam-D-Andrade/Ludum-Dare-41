@@ -18,6 +18,8 @@ DefaultItem = Items.WateringCan;
 
 ItemType = DefaultItem;
 
-Sprite[
+Sprite[Items.Seed]			= sprSeed;
+Sprite[Items.WateringCan]	= sprWateringCan;
+Sprite[Items.Shovel]		= sprShovel;
 
-sprite_index = 
+sprite_index = Sprite[ItemType];
