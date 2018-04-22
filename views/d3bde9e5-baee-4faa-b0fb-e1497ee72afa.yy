@@ -12,7 +12,8 @@
         "1c2f6cfb-af86-4125-9c58-fdcaa3258e84",
         "5acbf8dd-91a8-4cce-b8a6-e96b0d65c433",
         "3cf0a4cb-1e93-4076-8d76-e6b2e973bbec",
-        "9d4e2378-2982-4d68-b27d-c140c5b66fef"
+        "9d4e2378-2982-4d68-b27d-c140c5b66fef",
+        "aa386b69-c4c1-47a8-ac47-d48d498ce225"
     ],
     "filterType": "GMSprite",
     "folderName": "Tiles",

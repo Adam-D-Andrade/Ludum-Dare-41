@@ -36,7 +36,7 @@ if instance_exists(oPlayer){
 			// Player has shovel and plant is ready to be harvested
 			else if (oPlayer.ActiveItem == Items.Shovel) and (growingStage == maxGrowStage) {
 				audio_play_sound(sndShovel1, 1, false);
-				global.carrotCounter++;
+				global.potatoCounter++;
 				instance_destroy();
 			}
 		}

@@ -7,7 +7,7 @@ watered = false;
 
 // Customize plant
 maxGrowStage = image_number-1;
-plantType = "carrot";
+plantType = "potato";
 
 // Set this to draw var text on screen
 debugMode = true;

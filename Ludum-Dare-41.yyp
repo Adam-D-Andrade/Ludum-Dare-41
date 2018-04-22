@@ -1215,6 +1215,14 @@
             }
         },
         {
+            "Key": "7bfc4d05-1e5c-41a4-902f-f9ee4c8dfd5f",
+            "Value": {
+                "id": "6ebc080c-7879-4b5c-9118-21fee86a44e7",
+                "resourcePath": "tilesets\\tsBricks\\tsBricks.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "7cac628d-7407-4a59-92fd-25ae7e2a329b",
             "Value": {
                 "id": "b588bbdf-7a3e-42f0-8ba4-ab73ca78dcf6",
@@ -1687,6 +1695,14 @@
             }
         },
         {
+            "Key": "aa386b69-c4c1-47a8-ac47-d48d498ce225",
+            "Value": {
+                "id": "49b32d04-a41e-4afe-b538-2c960bf2874c",
+                "resourcePath": "sprites\\sprBrickFloor\\sprBrickFloor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aa8eaeef-95dc-44be-8a2c-540c97b766ad",
             "Value": {
                 "id": "ae8f49d9-88e0-4d15-9f1f-cb70aca01bf1",
@@ -2036,6 +2052,14 @@
                 "id": "965b9a79-3cfa-4216-9f25-b1bc27f8af14",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d0827fde-1612-4730-9377-9eb21454dd59",
+            "Value": {
+                "id": "1d862970-362c-4fc1-892e-1c1632cc9059",
+                "resourcePath": "sprites\\sprEmptyItem\\sprEmptyItem.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
