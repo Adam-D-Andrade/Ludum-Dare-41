@@ -1,7 +1,7 @@
 /// @description 
 // Purpose:
 
-global.Energy -= 10;
+global.Energy -= 1;
 
 //Death Timer
 if (global.Energy <= 0) {
