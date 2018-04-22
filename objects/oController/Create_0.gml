@@ -2,6 +2,7 @@
 // Purpose:
 
 MakeUnique();
+audio_master_gain(0.5);
 audio_play_sound(Potatocrusher, 1, true);
 
 global.MAX_ENERGY	= 100;
@@ -14,3 +15,5 @@ global.ScrollSpeed	= 4;
 
 global.LapCount		= 0;
 global.PlayerDeath	= false;
+
+global.DeathCount	= 0;

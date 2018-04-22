@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0105aa03-c428-4b8c-80bf-ec00d7953fbb",
+            "Value": {
+                "id": "8243f316-1c7e-47bf-aa58-75cc0672a80f",
+                "resourcePath": "views\\0105aa03-c428-4b8c-80bf-ec00d7953fbb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "015dfc58-0b4f-40f4-a49a-bc5d1bd40b2f",
             "Value": {
                 "id": "0dd5a8f5-8da3-4a0e-bc85-9f34f408fc6c",
@@ -647,6 +655,14 @@
             }
         },
         {
+            "Key": "4949debb-76fd-4c9c-99bb-36051a486ba0",
+            "Value": {
+                "id": "9172164b-50a0-4042-9cbc-9b28e21ad6f9",
+                "resourcePath": "sprites\\YouDied\\YouDied.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a6750a7-b621-40a6-addf-c025ff0e9f69",
             "Value": {
                 "id": "40c998ea-b5c8-4e95-bc60-6b9c4a8c931b",
@@ -1231,6 +1247,14 @@
             }
         },
         {
+            "Key": "8140b8f9-0937-4a84-858b-42842927c6b5",
+            "Value": {
+                "id": "11b94351-b7ec-4ed3-be8f-812713c183d9",
+                "resourcePath": "objects\\oYouDied\\oYouDied.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8146598a-1696-4298-9d10-f74cbe4fd478",
             "Value": {
                 "id": "0186b9ee-90fa-4dd2-81f9-48fe08c17e90",
@@ -1388,6 +1412,14 @@
                 "id": "ba14a368-3f90-42df-aac1-d423bb8466d2",
                 "resourcePath": "scripts\\TweenFireFrom\\TweenFireFrom.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8fbab7d4-7442-4161-8a5a-7e4eee4b0f08",
+            "Value": {
+                "id": "bd696e46-3be7-4b36-bf2b-e4418e8382f6",
+                "resourcePath": "views\\8fbab7d4-7442-4161-8a5a-7e4eee4b0f08.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2212,6 +2244,14 @@
                 "id": "d0615be2-d4fa-458d-ba27-5a3880b5a1a4",
                 "resourcePath": "views\\f4c56a7f-193e-4386-b759-f09dc13a4516.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f5097529-8062-451c-ae57-8a868b655f37",
+            "Value": {
+                "id": "f753653d-f875-4ced-9336-b27e423d816f",
+                "resourcePath": "objects\\oDeathTransition\\oDeathTransition.yy",
+                "resourceType": "GMObject"
             }
         },
         {

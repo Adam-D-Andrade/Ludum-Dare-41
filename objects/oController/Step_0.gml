@@ -22,6 +22,6 @@ if keyboard_check_pressed(ord("R")) {
 
 ///////////Player Death///////////////
 if (global.PlayerDeath == true){
-	alarm[0] = 60;
+	instance_create_layer(0,0, "GUI", oDeathTransition);
 	global.PlayerDeath = false;
 }
