@@ -4,17 +4,19 @@
 
 // This will increment the growing stage whenever the lap increments
 if (global.LapCount > relativeLapCounter) {
-	growingStage++;
+	if (growingStage <= maxGrowStage) {	
+				
+		if (relativeLapCounter % 2 == 0) and (growingStage != maxGrowStage) {
+			growingStage++;
+			image_index++;
+		}
 	
-	if (growingStage % 2 == 0) {
-		image_index++;
+		if (watered == true) and (growingStage != maxGrowStage) {
+			growingStage++;
+			image_index++;	
+		}
 	}
-	
-	if (watered == true) {
-		image_index++;	
-		growingStage++;
-	}
-	
+		
 	relativeLapCounter = global.LapCount;
 	watered = false; // allow plant to be watered again
 }
