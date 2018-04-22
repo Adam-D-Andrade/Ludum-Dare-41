@@ -2,7 +2,7 @@
     "id": "48772481-1650-4371-a697-d2f057f48c75",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprEggplant",
+    "name": "sprSquash",
     "For3D": false,
     "HTile": false,
     "VTile": false,
