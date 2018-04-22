@@ -2,4 +2,4 @@
 // Purpose:
 event_inherited();
 
-depth = -1000;
+xx = 0;
