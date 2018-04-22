@@ -1,3 +1,7 @@
 /// @description 
 // Purpose:
-event_inherited();
+
+draw_self();
+
+
+

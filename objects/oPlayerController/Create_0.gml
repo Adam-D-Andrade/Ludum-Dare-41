@@ -10,7 +10,8 @@ xscale = image_xscale;
 	
 //States & Variables
 ActiveItem = -1;
-    
+alarm[0] = 60;
+
 ///Declare states
 direc           = 0;
 Attack          = false;
