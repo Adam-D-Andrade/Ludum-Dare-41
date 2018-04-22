@@ -1607,6 +1607,14 @@
             }
         },
         {
+            "Key": "a5c38813-3398-40c5-901a-f7b346cc86fd",
+            "Value": {
+                "id": "292e5a39-7319-4dfa-acdd-7c09825bc8fc",
+                "resourcePath": "scripts\\Wave\\Wave.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5f23b91-6f49-4082-a33e-08b642118617",
             "Value": {
                 "id": "eab83861-113a-40bd-91d1-ff87307896f1",
@@ -2578,7 +2586,8 @@
         "07075e40-27f6-4eaa-a2b5-aba79ca5503c",
         "a2a169ef-2446-4b8e-ada6-55d1ea8359e5",
         "2befc192-a5ba-4ea5-aa1f-5df90217ce5f",
-        "c00cc16b-9037-4738-afaf-99d51971a32c"
+        "c00cc16b-9037-4738-afaf-99d51971a32c",
+        "a5c38813-3398-40c5-901a-f7b346cc86fd"
     ],
     "tutorial": ""
 }
