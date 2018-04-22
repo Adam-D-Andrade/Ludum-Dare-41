@@ -11,7 +11,7 @@ with oPlayer
 			playerOn = true;
             debug_text = true;	
         }
-		
+
 if playerOn = true {
 	if keyboard_check_pressed(vk_space){
 		debug_interact = true;

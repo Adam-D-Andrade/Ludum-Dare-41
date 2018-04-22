@@ -24,7 +24,7 @@ if (keyboard_check(vk_right)) {
 }
 else if (keyboard_check(vk_left)) { 
     //xsp = Approach(xsp, -max_xsp, movespeed);
-	xsp -= movespeed;
+	xsp -= movespeed*2;
 }
 else {
 	if (global.Horizontal){
@@ -66,7 +66,7 @@ else {
 
 //Set a maximum horizontal speed
 if (xsp > max_xsp) xsp = max_xsp;
-if (xsp < -max_xsp) xsp = -max_xsp;
+if (xsp < -max_xsp) xsp = -max_xsp*10;
 
 if (ysp > max_ysp) ysp = max_ysp;
 if (ysp < -max_ysp) ysp = -max_ysp;

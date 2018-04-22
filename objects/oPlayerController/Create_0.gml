@@ -10,7 +10,6 @@ xscale = image_xscale;
 //States & Variables
 ActiveItem = -1;
     
-   
 ///Declare states
 direc           = 0;
 Attack          = false;
@@ -37,8 +36,8 @@ else {
 }
 
     
-max_xsp = 20;
-max_ysp = 20;
+max_xsp = 30;
+max_ysp = 7;
     
 movespeed = 4;
     
