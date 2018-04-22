@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-self.playerOn = false;
-self.currentItem = -1;
-self.debug_text = false;
-self.debug_interact = false;
+playerOn = false;
+currentItem = -1;
+debug_text = false;
+debug_interact = false;
