@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "56e99d7e-1e16-4f0d-b093-294327667556",
+            "Value": {
+                "id": "309d31d6-dcad-4231-9862-298ad560aef4",
+                "resourcePath": "sprites\\sprGrassSheet\\sprGrassSheet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "573bed33-ca32-429e-8d52-a00d879f24d9",
             "Value": {
                 "id": "915f1a40-d340-414b-8a8d-f2b879f2c288",
@@ -1663,6 +1671,14 @@
             }
         },
         {
+            "Key": "aa8eaeef-95dc-44be-8a2c-540c97b766ad",
+            "Value": {
+                "id": "ae8f49d9-88e0-4d15-9f1f-cb70aca01bf1",
+                "resourcePath": "sounds\\sndItemPickup\\sndItemPickup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "aa942087-6a64-4af9-9d45-038a1b71c2f8",
             "Value": {
                 "id": "bd6180dd-646a-4f1f-8d76-3fc645283d69",
@@ -1852,6 +1868,14 @@
                 "id": "e9daa469-f45d-41fe-85c5-d7cd638c3014",
                 "resourcePath": "views\\be701dd2-4219-4954-8678-640af5401d1e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bec2d4ff-40e2-4383-a470-831ba4d50fd9",
+            "Value": {
+                "id": "87996131-bfad-4f04-930e-74a60195c786",
+                "resourcePath": "sprites\\sprWatered\\sprWatered.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2207,6 +2231,14 @@
             }
         },
         {
+            "Key": "e89aa5d4-43dc-42b1-aadd-5eb4f51385b7",
+            "Value": {
+                "id": "ab9ee23e-796c-47a9-9072-6849ad3dc4d4",
+                "resourcePath": "sounds\\sndPowerup\\sndPowerup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ee0db4b5-4241-40a8-b180-fa9cac0f419e",
             "Value": {
                 "id": "180616c5-5382-4790-8c29-83f9beb1356e",
@@ -2303,6 +2335,14 @@
             }
         },
         {
+            "Key": "f5fca06c-5e75-4af7-87ef-c8afb740d2fa",
+            "Value": {
+                "id": "3a49cc6e-b5de-423b-a4c6-c2f213d44c09",
+                "resourcePath": "views\\f5fca06c-5e75-4af7-87ef-c8afb740d2fa.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f60865ac-4828-48c6-a7c9-e1a250f6f19d",
             "Value": {
                 "id": "905e9b2c-63b0-412c-b2a3-88d5dc6f0e84",
@@ -2356,6 +2396,14 @@
                 "id": "4c649d04-0464-42a1-b960-5c4119c5ff90",
                 "resourcePath": "notes\\READ THIS FOREST.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "fb0a5432-324a-424d-ab5f-8593250940ba",
+            "Value": {
+                "id": "8558ce96-9b9d-490e-be25-37338f9bb43e",
+                "resourcePath": "tilesets\\tsGrass\\tsGrass.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

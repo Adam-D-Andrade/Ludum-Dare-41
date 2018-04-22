@@ -24,7 +24,6 @@ if instance_exists(oPlayer){
 
 	draw_self();
 
-
 /*
 if keyboard_check_pressed(vk_space){
     // do action

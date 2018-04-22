@@ -14,10 +14,15 @@ if instance_exists(oPlayer){
 		if keyboard_check_pressed(vk_space){
 			//Carrot
 			if ((oPlayer.ActiveItem == Items.CarrotSeed) and (occupied == false)) {
-				instance_create_layer(id.x, id.y, "InstancesFG", oCarrot);
+				occupyingInstance = instance_create_layer(id.x, id.y, "InstancesFG", oCarrot);
 				audio_play_sound(sndSeeds, 1, false);
 				occupied = true;
 			}
 		}
 	}
+}
+
+// Reset occupied status to false when occupyingInstance is destroyed (harvested)
+if !instance_exists(occupyingInstance) and occupied = true {
+	occupied = false;	
 }

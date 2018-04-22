@@ -6,7 +6,7 @@
 if (global.LapCount > relativeLapCounter) {
 	if (growingStage <= maxGrowStage) {	
 				
-		if (relativeLapCounter % 2 == 0) and (growingStage != maxGrowStage) {
+		if (relativeLapCounter % 3 == 0) and (growingStage != maxGrowStage) {
 			growingStage++;
 			image_index++;
 		}
@@ -17,7 +17,7 @@ if (global.LapCount > relativeLapCounter) {
 		}
 	}
 		
-	relativeLapCounter = global.LapCount;
+	relativeLapCounter++;
 	watered = false; // allow plant to be watered again
 }
 

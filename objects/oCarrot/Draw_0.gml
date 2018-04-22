@@ -3,6 +3,11 @@
 
 draw_self();
 
+//Watered
+if (watered) {
+   draw_sprite(sprWatered, 0, x, y);
+}
+
 // debug
 if debugMode == true {
 	draw_set_text(c_white, fntDebug, fa_left, fa_top)
@@ -11,3 +16,4 @@ if debugMode == true {
 	draw_text(x, y + 50, "relativeLapCounter: " + string(relativeLapCounter));
 	draw_text(x, y + 70, "watered: " + string(watered));
 }
+

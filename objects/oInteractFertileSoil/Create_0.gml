@@ -5,3 +5,4 @@ currentItem = -1;
 debug_text = false;
 debug_interact = false;
 occupied = false;
+occupyingInstance = -1;
