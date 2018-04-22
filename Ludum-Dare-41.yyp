@@ -2151,14 +2151,6 @@
             }
         },
         {
-            "Key": "da1dcf17-240f-453f-972e-23ba0fe5f214",
-            "Value": {
-                "id": "d0693e7b-8ff1-4889-bba1-4003fdbf50fd",
-                "resourcePath": "sprites\\sprFertileDirtOutline\\sprFertileDirtOutline.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "da23605e-8497-403e-b7a6-38d1aea8db4f",
             "Value": {
                 "id": "8eaadafa-defd-4494-8cb2-fc479e9e1b87",
