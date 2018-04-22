@@ -1,23 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-debug_text = false;
-debug_interact = false;
-playerOn = false;
+self.debug_text = false;
+self.debug_interact = false;
+self.playerOn = false;
 
 with oPlayer
-    if place_meeting(x+10, y+10, oInteractFertileSoil)
+    if place_meeting(x, y, oInteractFertileSoil)
         with other {
-			playerOn = true;
-            debug_text = true;	
+			self.playerOn = true;
+            self.debug_text = true;	
         }
 
-if playerOn = true {
+if self.playerOn = true {
 	if keyboard_check_pressed(vk_space){
-		debug_interact = true;
+		self.debug_interact = true;
 		
 		if oPlayer.ActiveItem == Items.Seed {
 			// plant seed
+			instance_create_layer(self.x, self.y, "InstancesFG", oGrowingPlant);
 		}
 		else if oPlayer.ActiveItem == Items.WateringCan {
 			// water seed
@@ -25,6 +26,5 @@ if playerOn = true {
 		else if oPlayer.ActiveItem == Items.Shovel {
 			// dig plant
 		}
-		
 	}	
 }

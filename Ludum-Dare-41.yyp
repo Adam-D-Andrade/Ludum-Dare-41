@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0abd45b1-84a5-48da-a518-0515df207190",
+            "Value": {
+                "id": "f04f10ea-8a30-4340-b65f-a590385cb03b",
+                "resourcePath": "objects\\oGrowingPlant\\oGrowingPlant.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0c5e4bc7-3b90-45ab-9434-de30c68eedb3",
             "Value": {
                 "id": "81a7ef11-40c5-4f98-aa0e-cd08823fdc42",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "804513b5-850f-4644-ab2b-106239c6e39b",
+            "Value": {
+                "id": "0834f962-866a-454c-92e6-23ed1622a08c",
+                "resourcePath": "views\\804513b5-850f-4644-ab2b-106239c6e39b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "813ae083-9063-4624-bc32-1e563a44af74",
             "Value": {
                 "id": "bc30ef25-316b-465e-936c-382b3e42a598",
@@ -412,6 +428,14 @@
                 "id": "567a1ddf-f07b-4a4e-a652-fe5311dd95df",
                 "resourcePath": "objects\\oDisplayManager\\oDisplayManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "929a6b52-4d1c-4a37-9424-465eb41fb4c9",
+            "Value": {
+                "id": "7e896c73-d620-44f0-9e00-4ce763db828d",
+                "resourcePath": "sprites\\sprGrowing01\\sprGrowing01.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
