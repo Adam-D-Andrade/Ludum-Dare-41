@@ -1839,6 +1839,14 @@
             }
         },
         {
+            "Key": "c6d34157-9142-4e4f-b186-25188e93073a",
+            "Value": {
+                "id": "203f9a73-47f1-4425-b9a7-220f41d52e96",
+                "resourcePath": "sprites\\sprPotatoFull\\sprPotatoFull.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c796fe81-f860-4899-8c6b-068cc9141cde",
             "Value": {
                 "id": "e347e2f9-89c8-4a15-8c12-110a25ac3c0e",
