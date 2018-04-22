@@ -8,7 +8,7 @@ enum Items {
 	Last,			//3
 	PotatoSeed,     //4
 	CucumberSeed,   //5
-	EggplantSeed    //6
+	SquashSeed    //6
 }
 
 DefaultItem = Items.WateringCan;

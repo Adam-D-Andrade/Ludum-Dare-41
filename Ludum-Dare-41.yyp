@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "5584bafc-3f17-4d34-a7b0-f84d3fb93998",
+            "Value": {
+                "id": "aad6e885-26de-4a78-8dc2-d7ad00a9633e",
+                "resourcePath": "sounds\\sndInjury\\sndInjury.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "55b3b0a5-76d7-458f-b6c1-9df86f5a2fc2",
             "Value": {
                 "id": "17fb2ed3-a96e-408c-985b-efe8cbeb56b1",
