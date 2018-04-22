@@ -9,5 +9,7 @@ alpha = 0.01;
 FadeIn = true;
 FadeOut = false;
 
+Spawned = false;
+
 global.LapCount++;
 
