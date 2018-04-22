@@ -3,6 +3,7 @@
 
 /// @description 
 // Purpose: Initialize Variables
+xx = 0;
 
 yscale = image_yscale;
 xscale = image_xscale;
