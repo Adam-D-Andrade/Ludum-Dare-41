@@ -6,3 +6,4 @@ relativeLapCounter = global.LapCount;
 watered = false;
 maxGrowStage = image_number-1; //4 frames
 debugMode = true;
+plantType = "carrot";

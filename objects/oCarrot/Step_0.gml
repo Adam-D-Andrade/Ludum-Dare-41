@@ -28,9 +28,16 @@ if instance_exists(oPlayer){
 	if playerOn {
 		debug_text = true;
 		if keyboard_check_pressed(vk_space){
-			if ((oPlayer.ActiveItem == Items.WateringCan) and (watered == false)) {
+			// Player has watering can and waters plant
+			if ((oPlayer.ActiveItem == Items.WateringCan) and (watered == false) and (growingStage != maxGrowStage)) {
 				audio_play_sound(sndWateringCan, 1, false);
 				watered = true;
+			}
+			// Player has shovel and plant is ready to be harvested
+			else if (oPlayer.ActiveItem == Items.Shovel) and (growingStage == maxGrowStage) {
+				audio_play_sound(sndShovel1, 1, false);
+				global.carrotCounter++;
+				instance_destroy();
 			}
 		}
 	}
