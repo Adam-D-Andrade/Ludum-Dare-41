@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "1a4998f4-8daf-49a0-9449-091c9bea8e76",
+            "Value": {
+                "id": "dfe38b55-d1ef-41d2-b336-dcdc95b6c7a1",
+                "resourcePath": "shaders\\shdRedFlash\\shdRedFlash.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "1af7f9de-252d-451f-bb2d-bb70c359c8cf",
             "Value": {
                 "id": "1e293822-352d-45af-bdf5-9c5acc80559c",
@@ -324,6 +332,14 @@
                 "id": "936b5931-9fe1-4758-837d-414850a136fe",
                 "resourcePath": "scripts\\TweenIsActive\\TweenIsActive.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1eb25fc6-bd73-4366-ba4a-e7fe35117608",
+            "Value": {
+                "id": "ae8ccb7e-ff0a-4c44-9d4d-b35b81f2b72c",
+                "resourcePath": "sprites\\sprHeartPiece\\sprHeartPiece.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1543,6 +1559,14 @@
             }
         },
         {
+            "Key": "996dac4f-b52b-4b4d-8709-0384bde040f4",
+            "Value": {
+                "id": "c8082673-e7ff-4889-b1b8-64b31fa6c6df",
+                "resourcePath": "scripts\\script180\\script180.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "997b078c-067c-4a6c-a695-8d03dc7d6e5a",
             "Value": {
                 "id": "9fcfa519-46ee-4ad7-84cc-2fd051a9a4dc",
@@ -2159,6 +2183,14 @@
             }
         },
         {
+            "Key": "d8618645-160d-4ff2-8822-aecc53c169e2",
+            "Value": {
+                "id": "a3df7828-61dd-40fe-a949-0e5091ec9e9b",
+                "resourcePath": "objects\\oParEnemy\\oParEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d9beab19-be20-45b9-bbc1-31e0ed7773c9",
             "Value": {
                 "id": "52415f1d-1fd5-4235-80da-9d244c891c35",
@@ -2447,6 +2479,14 @@
             }
         },
         {
+            "Key": "f786a15f-42ec-4603-95af-2326ca068c49",
+            "Value": {
+                "id": "51e327c6-b1ab-455c-900f-5db8450a4a42",
+                "resourcePath": "objects\\oBramble\\oBramble.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa061fbe-296f-4127-8ad3-a7aa89ee5c7b",
             "Value": {
                 "id": "7dfc13ef-f2a7-4002-bb32-2d51e34bd9bb",
@@ -2723,7 +2763,8 @@
         "a2a169ef-2446-4b8e-ada6-55d1ea8359e5",
         "2befc192-a5ba-4ea5-aa1f-5df90217ce5f",
         "c00cc16b-9037-4738-afaf-99d51971a32c",
-        "a5c38813-3398-40c5-901a-f7b346cc86fd"
+        "a5c38813-3398-40c5-901a-f7b346cc86fd",
+        "996dac4f-b52b-4b4d-8709-0384bde040f4"
     ],
     "tutorial": ""
 }

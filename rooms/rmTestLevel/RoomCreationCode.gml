@@ -1,7 +1,6 @@
 
-
-global.Horizontal	= true;
-global.MovingRight	= true;
+global.Horizontal    = true;
+global.MovingRight    = true;
 
 // Setup win condition values for level
 global.carrotWin = 1;

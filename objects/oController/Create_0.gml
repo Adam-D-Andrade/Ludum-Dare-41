@@ -5,6 +5,9 @@ MakeUnique();
 audio_master_gain(0.5);
 audio_play_sound(Potatocrusher, 1, true);
 
+global.MAX_HEALTH = 3;
+global.CurrentHealth = global.MAX_HEALTH;
+
 global.MAX_ENERGY	= 100;
 global.Energy		= 100;
 
@@ -24,4 +27,8 @@ global.carrotCounter = 0;
 global.potatoCounter = 0;
 global.squashCounter = 0;
 global.cucumberCounter = 0;
+
+//GUI variables
+guiLeft = 50;
+guiTop = 50;
 
