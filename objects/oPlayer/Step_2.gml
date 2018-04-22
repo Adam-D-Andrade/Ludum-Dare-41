@@ -8,4 +8,5 @@ right_view = left_view + camera_get_view_width(view_camera[0])
 
 if (x > right_view) or (x < left_view) {
 	instance_destroy();
+	global.PlayerDeath = true;
 }
