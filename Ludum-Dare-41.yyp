@@ -2135,6 +2135,14 @@
             }
         },
         {
+            "Key": "d8618645-160d-4ff2-8822-aecc53c169e2",
+            "Value": {
+                "id": "a3df7828-61dd-40fe-a949-0e5091ec9e9b",
+                "resourcePath": "objects\\oParEnemy\\oParEnemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d9beab19-be20-45b9-bbc1-31e0ed7773c9",
             "Value": {
                 "id": "52415f1d-1fd5-4235-80da-9d244c891c35",

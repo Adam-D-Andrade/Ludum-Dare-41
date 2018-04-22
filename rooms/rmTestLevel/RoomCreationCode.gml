@@ -15,3 +15,5 @@ ds_map_add(global.WinConditions, "carrotWin", carrotWin);
 ds_map_add(global.WinConditions, "potatoWin", potatoWin);
 ds_map_add(global.WinConditions, "cucumberWin", cucumberWin);
 ds_map_add(global.WinConditions, "squashWin", squashWin);
+
+
