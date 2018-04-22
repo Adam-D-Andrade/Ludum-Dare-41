@@ -2,7 +2,7 @@
     "id": "adb94303-a41c-4737-9bae-e7ae23008109",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprSeed",
+    "name": "sprCarrotSeed",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -2,7 +2,7 @@
     "id": "0abd45b1-84a5-48da-a518-0515df207190",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oGrowingPlant",
+    "name": "oCarrot",
     "eventList": [
         {
             "id": "24cdf04a-a666-464a-9c5f-0a89e4f262cc",

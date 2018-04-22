@@ -130,7 +130,7 @@
             "Key": "0abd45b1-84a5-48da-a518-0515df207190",
             "Value": {
                 "id": "f04f10ea-8a30-4340-b65f-a590385cb03b",
-                "resourcePath": "objects\\oGrowingPlant\\oGrowingPlant.yy",
+                "resourcePath": "objects\\oCarrot\\oCarrot.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -631,11 +631,27 @@
             }
         },
         {
+            "Key": "47b22eb1-5fba-411b-bcc3-20a085dc0d24",
+            "Value": {
+                "id": "4dbfac5f-9d55-4f53-8fa8-5e0a14755925",
+                "resourcePath": "sprites\\sprCucumber\\sprCucumber.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47bb140f-9f3a-4596-8e5d-1f01a34af4d7",
             "Value": {
                 "id": "a0c5ef8f-4aee-4b10-8283-1fc0ca994f5d",
                 "resourcePath": "objects\\oFinishLine\\oFinishLine.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "48772481-1650-4371-a697-d2f057f48c75",
+            "Value": {
+                "id": "35dbc22c-02c8-4ea3-83d4-0ea069d6c079",
+                "resourcePath": "sprites\\sprEggplant\\sprEggplant.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1634,7 +1650,7 @@
             "Key": "aa942087-6a64-4af9-9d45-038a1b71c2f8",
             "Value": {
                 "id": "bd6180dd-646a-4f1f-8d76-3fc645283d69",
-                "resourcePath": "sprites\\sprCarrotFull\\sprCarrotFull.yy",
+                "resourcePath": "sprites\\sprCarrot\\sprCarrot.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1690,7 +1706,7 @@
             "Key": "adb94303-a41c-4737-9bae-e7ae23008109",
             "Value": {
                 "id": "ae045ade-91cb-4ff8-84ff-54519cdd616a",
-                "resourcePath": "sprites\\sprSeed\\sprSeed.yy",
+                "resourcePath": "sprites\\sprCarrotSeed\\sprCarrotSeed.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1882,7 +1898,7 @@
             "Key": "c6d34157-9142-4e4f-b186-25188e93073a",
             "Value": {
                 "id": "203f9a73-47f1-4425-b9a7-220f41d52e96",
-                "resourcePath": "sprites\\sprPotatoFull\\sprPotatoFull.yy",
+                "resourcePath": "sprites\\sprPotato\\sprPotato.yy",
                 "resourceType": "GMSprite"
             }
         },

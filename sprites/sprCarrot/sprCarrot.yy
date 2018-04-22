@@ -2,7 +2,7 @@
     "id": "aa942087-6a64-4af9-9d45-038a1b71c2f8",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprCarrotFull",
+    "name": "sprCarrot",
     "For3D": false,
     "HTile": false,
     "VTile": false,
