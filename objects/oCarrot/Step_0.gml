@@ -9,7 +9,8 @@ if (global.LapCount > relativeLapCounter) {
 	if (growingStage % 2 == 0) {
 		image_index++;
 	}
-	else if (watered == true) {
+	
+	if (watered == true) {
 		image_index++;	
 		growingStage++;
 	}
