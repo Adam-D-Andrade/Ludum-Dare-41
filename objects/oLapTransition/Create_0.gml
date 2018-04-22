@@ -12,4 +12,3 @@ FadeOut = false;
 Spawned = false;
 
 global.LapCount++;
-

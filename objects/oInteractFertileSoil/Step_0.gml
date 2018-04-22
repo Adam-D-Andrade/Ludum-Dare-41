@@ -15,11 +15,11 @@ if instance_exists(oPlayer){
 			if (oPlayer.ActiveItem == Items.Seed) {
 				instance_create_layer(id.x, id.y, "InstancesFG", oGrowingPlant);
 			}
-			else if oPlayer.ActiveItem == Items.WateringCan {
-					// water seed
+			else if (oPlayer.ActiveItem == Items.WateringCan) {
+				// water dat seed
 			}
-			else if oPlayer.ActiveItem == Items.Shovel {
-					// dig plant
+			else if (oPlayer.ActiveItem == Items.Shovel) {
+				// dig plant
 			}
 		}
 	}
