@@ -3,4 +3,5 @@
 
 if (global.Energy <= 0) {
 	instance_destroy();
+	global.PlayerDeath = true;
 }
