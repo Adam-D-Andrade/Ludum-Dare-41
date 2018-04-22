@@ -50,7 +50,12 @@ for (var i = 0; i < global.CurrentHealth; i++) {
 
 //DrawHealthBar
 var percentEnergy = (global.Energy/global.MAX_ENERGY) * 100
-draw_healthbar(guiLeft, guiTop + 2*sh, 240, 64, percentEnergy, c_black, c_red, c_yellow, 0, true, false);
+var eleft, etop, eright, ebot;
+eleft	= guiLeft;
+etop	= guiTop + 2*sh;
+eright	= 400;
+ebot	= etop + 64;
+draw_healthbar(eleft, etop, eright, ebot, percentEnergy, c_black, c_red, c_yellow, 0, true, false);
 
 
 
