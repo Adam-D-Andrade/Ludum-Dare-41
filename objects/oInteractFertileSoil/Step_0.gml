@@ -18,6 +18,13 @@ if instance_exists(oPlayer){
 				audio_play_sound(sndSeeds, 1, false);
 				occupied = true;
 			}
+			//Potato
+			else if ((oPlayer.ActiveItem == Items.PotatoSeed) and (occupied == false)) {
+				occupyingInstance = instance_create_layer(id.x, id.y, "InstancesFG", oPotato);
+				audio_play_sound(sndSeeds, 1, false);
+				occupied = true;
+			}
+			
 		}
 	}
 }

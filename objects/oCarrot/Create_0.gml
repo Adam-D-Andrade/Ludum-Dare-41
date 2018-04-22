@@ -10,4 +10,4 @@ maxGrowStage = image_number-1;
 plantType = "carrot";
 
 // Set this to draw var text on screen
-debugMode = true;
+debugMode = false;
