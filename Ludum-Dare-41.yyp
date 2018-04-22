@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "1a4998f4-8daf-49a0-9449-091c9bea8e76",
+            "Value": {
+                "id": "dfe38b55-d1ef-41d2-b336-dcdc95b6c7a1",
+                "resourcePath": "shaders\\shdRedFlash\\shdRedFlash.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "1af7f9de-252d-451f-bb2d-bb70c359c8cf",
             "Value": {
                 "id": "1e293822-352d-45af-bdf5-9c5acc80559c",
@@ -2452,6 +2460,14 @@
                 "id": "de2617fb-a642-42b1-ba4e-1cec80f411da",
                 "resourcePath": "scripts\\TweenSystemCount\\TweenSystemCount.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f786a15f-42ec-4603-95af-2326ca068c49",
+            "Value": {
+                "id": "51e327c6-b1ab-455c-900f-5db8450a4a42",
+                "resourcePath": "objects\\oBramble\\oBramble.yy",
+                "resourceType": "GMObject"
             }
         },
         {
