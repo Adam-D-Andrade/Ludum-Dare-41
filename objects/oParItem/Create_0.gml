@@ -15,9 +15,9 @@ DefaultItem = Items.WateringCan;
 ItemType = DefaultItem;
 
 Sprite[Items.CarrotSeed]	= sprCarrotSeed;
-Sprite[Items.PotatoSeed]	= sprPotato;
-Sprite[Items.CucumberSeed]	= sprCucumber;
-Sprite[Items.EggplantSeed]	= sprEggplant;
+Sprite[Items.PotatoSeed]	= sprPotatoSeed;
+//Sprite[Items.CucumberSeed]	= sprCucumberSeed;
+//Sprite[Items.EggplantSeed]	= sprEggplantSeed;
 Sprite[Items.WateringCan]	= sprWateringCan;
 Sprite[Items.Shovel]		= sprShovel;
 

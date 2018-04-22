@@ -967,6 +967,14 @@
             }
         },
         {
+            "Key": "61b686bc-ba94-4ddd-8fe0-4689ea08b931",
+            "Value": {
+                "id": "08b9cf01-dbda-4579-9e17-55fa6aeb3758",
+                "resourcePath": "sprites\\sprPotatoSeed\\sprPotatoSeed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6309818d-36cf-4858-8dd0-66ff6f27ca68",
             "Value": {
                 "id": "12fe02dd-8c53-467c-b666-8f9df9b1c5fe",
@@ -1076,6 +1084,14 @@
                 "id": "bcd011a5-bcec-4f5a-8879-7560fb8c6a7a",
                 "resourcePath": "sprites\\sprFreeDogMan\\sprFreeDogMan.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6cb5210b-81d0-486a-bc21-89427e4de58e",
+            "Value": {
+                "id": "85c32f4a-fcc3-4d8b-b26a-4199c1d08f81",
+                "resourcePath": "views\\6cb5210b-81d0-486a-bc21-89427e4de58e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1908,6 +1924,14 @@
                 "id": "3fcfe829-6a76-422b-a326-02377186e139",
                 "resourcePath": "scripts\\TweensGroup\\TweensGroup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c1ea050c-198b-4989-94ac-010199e76459",
+            "Value": {
+                "id": "943cb988-a046-460f-82c4-f87dc8f5e6d7",
+                "resourcePath": "objects\\oPotato\\oPotato.yy",
+                "resourceType": "GMObject"
             }
         },
         {
