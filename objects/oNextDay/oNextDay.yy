@@ -2,7 +2,7 @@
     "id": "d3b8b2c3-e9f7-4825-b47b-ed66554eedbb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oNextLap",
+    "name": "oNextDay",
     "eventList": [
         {
             "id": "f3ebe224-6410-409e-ba8f-453ed4444ef6",

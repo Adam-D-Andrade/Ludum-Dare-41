@@ -12,5 +12,8 @@ yscale = camera_get_view_height(view_camera[0])
 draw_sprite_ext(sprBlackPixel, 0, xx, yy, xscale, yscale, 0, c_black, alpha);
 
 if ((DrawDeath == false) && (!FadeIn)) {
-	instance_create_layer(xx + 0.5*xscale, yy + 0.5*yscale, "GUI", oYouDied);
+	DrawDeath= true;
+	with(instance_create_layer(xx + 0.5*xscale, yy + 0.5*yscale, "GUI", oYouDied)){
+		depth = other.depth -1;
+	}
 }

@@ -1410,7 +1410,7 @@
             "Key": "8ddb2272-e265-417d-8857-49c8f5a453ca",
             "Value": {
                 "id": "69adba47-7a85-4316-864f-89370f751323",
-                "resourcePath": "sprites\\sprNextLap\\sprNextLap.yy",
+                "resourcePath": "sprites\\sprNextDay\\sprNextDay.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2002,7 +2002,7 @@
             "Key": "d3b8b2c3-e9f7-4825-b47b-ed66554eedbb",
             "Value": {
                 "id": "b90a2e83-5bbf-4585-adc7-b52e345ffb7f",
-                "resourcePath": "objects\\oNextLap\\oNextLap.yy",
+                "resourcePath": "objects\\oNextDay\\oNextDay.yy",
                 "resourceType": "GMObject"
             }
         },

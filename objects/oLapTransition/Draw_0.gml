@@ -10,9 +10,9 @@ yscale = camera_get_view_height(view_camera[0])
 
 draw_sprite_ext(sprBlackPixel, 0, xx, yy, xscale, yscale, 0, c_black, alpha);
 
-if (!FadeIn && !instance_exists(oNextLap) && !Spawned) {
+if (!FadeIn && !instance_exists(oNextDay) && !Spawned) {
 	Spawned = !Spawned;
-	with(instance_create_layer(x,y, "GUI", oNextLap)){
+	with(instance_create_layer(x,y, "GUI", oNextDay)){
 		depth = other.depth -1;
 	}
 }
