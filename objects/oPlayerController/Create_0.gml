@@ -10,7 +10,7 @@ xscale = image_xscale;
 	
 //States & Variables
 ActiveItem = -1;
-MAX_HEALTH = 3;
+
 
 
 ///Declare states
