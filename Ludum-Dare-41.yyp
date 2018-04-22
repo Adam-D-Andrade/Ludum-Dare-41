@@ -1103,6 +1103,14 @@
             }
         },
         {
+            "Key": "7637e7a7-97e4-4507-a4d3-0465b7997a1b",
+            "Value": {
+                "id": "81559e9d-370e-47d2-8589-f696949082e7",
+                "resourcePath": "sounds\\Potatocrusher\\Potatocrusher.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7774333e-658e-4f78-916a-8c6fef264531",
             "Value": {
                 "id": "6f605be8-d6b7-47cd-9ce6-bd588843825f",
