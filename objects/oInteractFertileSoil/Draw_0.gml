@@ -18,3 +18,4 @@ if debug_interact = true {
 	draw_set_text(c_red, fntAddisAbaba, fa_left, fa_top)
 	draw_text(oPlayer.x+10, oPlayer.y+10, "valid interaction detected")
 }
+

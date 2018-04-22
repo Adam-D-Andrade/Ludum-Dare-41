@@ -15,5 +15,16 @@ with oPlayer
 if playerOn = true {
 	if keyboard_check_pressed(vk_space){
 		debug_interact = true;
+		
+		if oPlayer.ActiveItem == Items.Seed {
+			// plant seed
+		}
+		else if oPlayer.ActiveItem == Items.WateringCan {
+			// water seed
+		}
+		else if oPlayer.ActiveItem == Items.Shovel {
+			// dig plant
+		}
+		
 	}	
 }
