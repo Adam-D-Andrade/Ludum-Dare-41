@@ -2,16 +2,22 @@
 // Purpose:
 
 enum Items {
-	Seed,			//0
+	CarrotSeed,		//0
 	WateringCan,	//1
 	Shovel,			//2
-	Last			//3
+	Last,			//3
+	PotatoSeed,     //4
+	CucumberSeed,   //5
+	EggplantSeed    //6
 }
 
 DefaultItem = Items.WateringCan;
 ItemType = DefaultItem;
 
-Sprite[Items.Seed]			= sprSeed;
+Sprite[Items.CarrotSeed]	= sprCarrotSeed;
+Sprite[Items.PotatoSeed]	= sprPotato;
+Sprite[Items.CucumberSeed]	= sprCucumber;
+Sprite[Items.EggplantSeed]	= sprEggplant;
 Sprite[Items.WateringCan]	= sprWateringCan;
 Sprite[Items.Shovel]		= sprShovel;
 

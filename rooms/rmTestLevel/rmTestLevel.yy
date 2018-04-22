@@ -14,7 +14,8 @@
         "03f423c1-f9d0-4928-a44f-2424e10b6f30",
         "a967e026-29b3-4920-9039-3e1f69dcd28a",
         "2e0542d4-c3c1-46a3-b08d-cc5980c24faf",
-        "e08bda10-c270-438f-b1c6-54a80b346603"
+        "e08bda10-c270-438f-b1c6-54a80b346603",
+        "b6b2dbea-7ed3-4577-9564-efddb06a02e4"
     ],
     "IsDnD": false,
     "layers": [
@@ -22,7 +23,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "GUI",
             "id": "0c907f97-b0b8-4541-95c3-4d37e3b7746e",
-            "depth": -350,
+            "depth": -351,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -48,7 +49,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "InstancesFG",
             "id": "5fdce192-2522-4434-aa6d-ad84d7016965",
-            "depth": -250,
+            "depth": -251,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -59,7 +60,8 @@
             "inheritVisibility": false,
             "instances": [
 {"name": "seed1","id": "2e0542d4-c3c1-46a3-b08d-cc5980c24faf","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_seed1.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "seed1","objId": "c858b99c-b857-412e-8e75-3424b4a9598a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 768,"y": 288},
-{"name": "wateringcan1","id": "e08bda10-c270-438f-b1c6-54a80b346603","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_wateringcan1.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "wateringcan1","objId": "c858b99c-b857-412e-8e75-3424b4a9598a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 864,"y": 288}
+{"name": "wateringcan1","id": "e08bda10-c270-438f-b1c6-54a80b346603","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_wateringcan1.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "wateringcan1","objId": "c858b99c-b857-412e-8e75-3424b4a9598a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 864,"y": 288},
+{"name": "shovel1","id": "b6b2dbea-7ed3-4577-9564-efddb06a02e4","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_shovel1.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "shovel1","objId": "c858b99c-b857-412e-8e75-3424b4a9598a","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 672,"y": 288}
             ],
             "layers": [
 
@@ -75,7 +77,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "InstancesBG",
             "id": "a1b252ff-5f75-4aee-bf7c-a32870674933",
-            "depth": -150,
+            "depth": -151,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

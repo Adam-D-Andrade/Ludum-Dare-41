@@ -1,2 +1,2 @@
-ItemType = Items.Seed;
-sprite_index = Sprite[Items.Seed];
+ItemType = Items.CarrotSeed;
+sprite_index = Sprite[Items.CarrotSeed];
