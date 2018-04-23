@@ -279,10 +279,26 @@
             }
         },
         {
+            "Key": "17e98cb4-40a3-4b1a-ae6b-2d73b47e7e50",
+            "Value": {
+                "id": "ae420ea7-57d6-4ebb-be1b-4d250359b14f",
+                "resourcePath": "objects\\objTutorialStep1\\objTutorialStep1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1831237f-df6c-4b50-8a94-12116b7704df",
             "Value": {
                 "id": "1b439f2e-709a-438c-9ab1-115053f26f1d",
                 "resourcePath": "views\\1831237f-df6c-4b50-8a94-12116b7704df.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1966da9a-8c94-4f2f-8576-9676111eb7a1",
+            "Value": {
+                "id": "b7c723f7-dbf3-4855-93e9-5e1ffb068fe5",
+                "resourcePath": "views\\1966da9a-8c94-4f2f-8576-9676111eb7a1.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -727,6 +743,14 @@
             }
         },
         {
+            "Key": "4972b387-04ab-4291-8c29-6e3eef9dd789",
+            "Value": {
+                "id": "4ee68272-4518-42c4-93fd-18ccb6220659",
+                "resourcePath": "objects\\objTutorialStep2\\objTutorialStep2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a6750a7-b621-40a6-addf-c025ff0e9f69",
             "Value": {
                 "id": "40c998ea-b5c8-4e95-bc60-6b9c4a8c931b",
@@ -828,6 +852,14 @@
                 "id": "71a2ff55-3453-4371-9307-69f2030b41e2",
                 "resourcePath": "scripts\\InitGameInput\\InitGameInput.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "524426f6-0a8a-4255-847d-e1911b4ca34f",
+            "Value": {
+                "id": "c15fd91d-da4a-4cd9-b00b-c3a76f982144",
+                "resourcePath": "rooms\\rmLevel3\\rmLevel3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1260,6 +1292,14 @@
                 "id": "4f6ce118-6624-412f-b748-ef59459b2da0",
                 "resourcePath": "views\\726a5254-4006-46f6-8e71-dc41e6ea007f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74e7301e-9474-453d-957b-ac5a39ec9358",
+            "Value": {
+                "id": "5c16df9c-d5f2-4a22-b7a5-b5a9e0bf56d4",
+                "resourcePath": "objects\\objTutorialStep3\\objTutorialStep3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2028,6 +2068,14 @@
                 "id": "89a83212-1442-44fa-830f-c88069438ab5",
                 "resourcePath": "views\\b8e7e72f-5882-4c66-82a0-74981e9cc053.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b902e1a9-4d58-4e49-8da4-df3b069b6228",
+            "Value": {
+                "id": "936402af-364a-42e9-981f-94d01f6ca46e",
+                "resourcePath": "sprites\\spr\\spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
