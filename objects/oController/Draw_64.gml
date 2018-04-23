@@ -19,32 +19,24 @@ draw_text(right, 100, "Cucumbers: " + string(global.cucumberCounter));
 draw_text(right, 120, "Squashes: " + string(global.squashCounter));
 
 
-
-// Debug
-if instance_exists(oPlayer){
-	draw_set_text(c_white, fntDebug, fa_left, fa_top);
-	draw_text(400, 0, ("Active item: " + string(oPlayer.ActiveItem)));
-}
-
-
 ////////////////////////////////////////////////////////////////////////////////////////
 ////////-----------------------GUI---------------------------///////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////
 //Draw Some Hearts
-var sw, sh, spaceing
+var sw, sh, spacing
 
 sw			= sprite_get_width(sprHeartPiece);
 sh			= sprite_get_height(sprHeartPiece);
-spaceing	= sw*1.2;
+spacing	= sw*1.2;
 
 //DrawEmpty Hearts
 for (var i = 0; i < global.MAX_HEALTH; i++) {
-	draw_sprite_ext(sprHeartPiece, 1, guiLeft+(0.5*sw)+(spaceing*i), guiTop+(0.5*sh), 1, 1, 0, c_white, 1);
+	draw_sprite_ext(sprHeartPiece, 1, guiLeft+(0.2*sw)+(spacing*i), guiTop+(0.5*sh), 0.7, 0.7, 0, c_white, 1);
 }
 
 //DrawFull Hearts
 for (var i = 0; i < global.CurrentHealth; i++) {
-	draw_sprite_ext(sprHeartPiece, 0, guiLeft+(0.5*sw)+(spaceing*i), guiTop+(0.5*sh), 1, 1, 0, c_white, 1);	
+	draw_sprite_ext(sprHeartPiece, 0, guiLeft+(0.2*sw)+(spacing*i), guiTop+(0.5*sh), 0.7, 0.7, 0, c_white, 1);	
 }
 
 //DrawHealthBar
@@ -53,8 +45,38 @@ var eleft, etop, eright, ebot;
 eleft	= guiLeft;
 etop	= guiTop + sh*1.1;
 eright	= 400;
-ebot	= etop + 48;
-draw_healthbar(eleft, etop, eright, ebot, percentEnergy, c_black, c_red, c_yellow, 0, true, false);
+ebot	= etop + 24;
+draw_healthbar(eleft, etop, eright, ebot, percentEnergy, c_black, c_red, c_green, 0, true, false);
+
+//Draw current item
+// Sprite[Items.Shovel]		= sprShovel;
+if instance_exists(oPlayer){
+	draw_sprite_ext("oops", 0, eleft+20, guiTop+(2*sh), 0.7, 0.7, 0, c_white, 1);
+}
+
+/*
+
+enum Items {
+	CarrotSeed,		//0
+	WateringCan,	//1
+	Shovel,			//2
+	Last,			//3
+	PotatoSeed,     //4
+	CucumberSeed,   //5
+	SquashSeed    //6
+}
+
+DefaultItem = Items.WateringCan;
+ItemType = DefaultItem;
+
+Sprite[Items.CarrotSeed]	= sprCarrotSeed;
+Sprite[Items.PotatoSeed]	= sprPotatoSeed;
+Sprite[Items.CucumberSeed]	= sprCucumberSeed;
+Sprite[Items.SquashSeed]	= sprSquashSeed;
+Sprite[Items.WateringCan]	= sprWateringCan;
+Sprite[Items.Shovel]		= sprShovel;
+
+sprite_index = Sprite[ItemType];
 
 
-
+*/

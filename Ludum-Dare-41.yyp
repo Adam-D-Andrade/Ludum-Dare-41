@@ -2063,6 +2063,14 @@
             }
         },
         {
+            "Key": "c2908e67-b852-4e98-bd41-7873a74aa22c",
+            "Value": {
+                "id": "1fec4951-515d-4c8f-96af-e9bd16013b28",
+                "resourcePath": "sounds\\sndGameOver\\sndGameOver.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c3faf112-280a-41d9-8253-b8507fffe804",
             "Value": {
                 "id": "d4d20b84-cc12-4b38-8eb5-56ef0698c3ca",
@@ -2308,6 +2316,14 @@
                 "id": "b5095128-e2cf-4908-8ae3-d39c2ec8777e",
                 "resourcePath": "scripts\\TweenEasyFade\\TweenEasyFade.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "de04cff8-e184-4172-8a72-b45f072c8d60",
+            "Value": {
+                "id": "714ba512-99a4-4e7d-80d2-01882173f56f",
+                "resourcePath": "sounds\\sndInjury2\\sndInjury2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
