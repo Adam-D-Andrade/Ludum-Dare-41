@@ -730,7 +730,7 @@
             "Key": "4c060ef4-385c-47f7-b57e-c792e9761ae5",
             "Value": {
                 "id": "f0626e81-9264-4932-9c2b-27919bd454fd",
-                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourcePath": "sprites\\sprBrambleCollision\\sprBrambleCollision.yy",
                 "resourceType": "GMSprite"
             }
         },
