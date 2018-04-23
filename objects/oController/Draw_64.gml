@@ -40,12 +40,12 @@ spaceing	= sw*1.2;
 
 //DrawEmpty Hearts
 for (var i = 0; i < global.MAX_HEALTH; i++) {
-	draw_sprite_ext(sprHeartPiece, 1, guiLeft+(0.5*sw)+(spaceing*i), guiTop+(0.5*sh), 1, 1, 0, c_white, 1);
+	draw_sprite_ext(sprHeartPiece, 1, guiLeft+(0.2*sw)+(spaceing*i), guiTop+(0.5*sh), 0.7, 0.7, 0, c_white, 1);
 }
 
 //DrawFull Hearts
 for (var i = 0; i < global.CurrentHealth; i++) {
-	draw_sprite_ext(sprHeartPiece, 0, guiLeft+(0.5*sw)+(spaceing*i), guiTop+(0.5*sh), 1, 1, 0, c_white, 1);	
+	draw_sprite_ext(sprHeartPiece, 0, guiLeft+(0.2*sw)+(spaceing*i), guiTop+(0.5*sh), 0.7, 0.7, 0, c_white, 1);	
 }
 
 //DrawHealthBar
@@ -54,8 +54,8 @@ var eleft, etop, eright, ebot;
 eleft	= guiLeft;
 etop	= guiTop + sh*1.1;
 eright	= 400;
-ebot	= etop + 48;
-draw_healthbar(eleft, etop, eright, ebot, percentEnergy, c_black, c_red, c_yellow, 0, true, false);
+ebot	= etop + 24;
+draw_healthbar(eleft, etop, eright, ebot, percentEnergy, c_black, c_red, c_green, 0, true, false);
 
 
 
