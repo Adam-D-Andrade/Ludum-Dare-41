@@ -10,17 +10,17 @@
 
 if global.Horizontal {
 	if global.MovingRight {
-		xsp = global.ScrollSpeed;
+		xsp = global.ScrollSpeed*global.PercentEnergy;
 	}
 	else {
-		xsp = -global.ScrollSpeed;
+		xsp = -global.ScrollSpeed*global.PercentEnergy;
 	}
 }
 
 
 if (keyboard_check(vk_right)) { 
     //xsp = Approach(xsp, max_xsp, movespeed);
-	xsp += movespeed;
+	xsp += movespeed
 }
 else if (keyboard_check(vk_left)) { 
     //xsp = Approach(xsp, -max_xsp, movespeed);
@@ -29,10 +29,10 @@ else if (keyboard_check(vk_left)) {
 else {
 	if (global.Horizontal){
 		if (global.MovingRight){
-			xsp = Approach(xsp, global.ScrollSpeed, movespeed);
+			xsp = Approach(xsp, global.ScrollSpeed*global.PercentEnergy, movespeed);
 		}
 		else {
-			xsp = Approach(xsp, -global.ScrollSpeed, movespeed);
+			xsp = Approach(xsp, -global.ScrollSpeed*global.PercentEnergy, movespeed);
 		}
 	}
 	else {
@@ -50,7 +50,7 @@ if (global.InputRight && global.InputLeft){
 
 //Move Down
 if keyboard_check(vk_down){
-    ysp = Approach(ysp, max_ysp, movespeed);
+    ysp = Approach(ysp, max_ysp, 1+movespeed*global.PercentEnergy);
 }
 else {
 	ysp = Approach(ysp, 0, 0.5);
@@ -58,7 +58,7 @@ else {
 
 //Move up
 if keyboard_check(vk_up){
-    ysp = Approach(ysp, -max_ysp, movespeed);
+    ysp = Approach(ysp, -max_ysp, 1+movespeed*global.PercentEnergy);
 }
 else {
 	ysp = Approach(ysp, 0, 0.5);

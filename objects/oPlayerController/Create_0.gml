@@ -39,7 +39,7 @@ else {
 
     
 max_xsp = 30;
-max_ysp = 7;
+max_ysp = 6;
     
 movespeed = 4;
     
