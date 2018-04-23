@@ -866,7 +866,7 @@
             "Key": "524426f6-0a8a-4255-847d-e1911b4ca34f",
             "Value": {
                 "id": "c15fd91d-da4a-4cd9-b00b-c3a76f982144",
-                "resourcePath": "rooms\\rmLevel3\\rmLevel3.yy",
+                "resourcePath": "rooms\\rmLevel_8\\rmLevel_8.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1124,6 +1124,14 @@
                 "id": "7a74a305-450d-49f9-bde2-3adfc0150d6d",
                 "resourcePath": "views\\65b19aa3-63d0-45be-8c80-23ee23ca3b28.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "65ca777a-1a38-49fe-bc72-d4512b253820",
+            "Value": {
+                "id": "517863f7-377e-4fd4-ae20-b0fc2de3fd1a",
+                "resourcePath": "rooms\\rmLevel_3\\rmLevel_3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2546,7 +2554,7 @@
             "Key": "e831e39f-7055-4d94-a2e0-67e265709cfd",
             "Value": {
                 "id": "53a18e32-598a-496a-a1c7-56b9d00c9278",
-                "resourcePath": "rooms\\rmLevel1\\rmLevel1.yy",
+                "resourcePath": "rooms\\rmLevel_1\\rmLevel_1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -2604,6 +2612,14 @@
                 "id": "a6dece9b-16b2-4fcd-b497-cdd2fa49ddd1",
                 "resourcePath": "scripts\\TweenAddCallbackUser\\TweenAddCallbackUser.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f170984c-6ff9-49ea-b6e3-0311edccf44e",
+            "Value": {
+                "id": "dd399de6-17fb-47ee-a223-648648589303",
+                "resourcePath": "rooms\\rmLevel_2\\rmLevel_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
