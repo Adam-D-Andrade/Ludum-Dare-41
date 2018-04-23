@@ -56,6 +56,7 @@ if (!global.LevelDone){
 ///////////Player Death///////////////
 if (global.PlayerDeath == true){
 	instance_create_layer(0,0, "GUI", oDeathTransition);
+	audio_play_sound(sndGameOver, 1, false);
 	global.PlayerDeath = false;
 }
 

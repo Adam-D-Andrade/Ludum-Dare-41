@@ -2607,6 +2607,14 @@
             }
         },
         {
+            "Key": "f170984c-6ff9-49ea-b6e3-0311edccf44e",
+            "Value": {
+                "id": "dd399de6-17fb-47ee-a223-648648589303",
+                "resourcePath": "rooms\\rmLevel11\\rmLevel11.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f22324d7-d687-4e8d-a438-8e0d4faa092e",
             "Value": {
                 "id": "7440cbc3-e724-4ffd-af12-54c0110640e6",
