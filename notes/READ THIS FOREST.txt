@@ -1,4 +1,12 @@
 
+Code:
+-Gui for 
+
+Design:
+
+Art:
+
+Polish:
 
 GUI AND BARS OF DATA EVERYWHERE
 Win condition
@@ -6,5 +14,4 @@ Redo Artwork (Dog Fucker)
 Design some Levels
 Basic Enemies
 
-We will likely need the ground tile set to also be seemless with the "walls" tiles
 
