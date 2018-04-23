@@ -10,3 +10,8 @@ if (x > right_view) or (x < left_view) {
 	instance_destroy();
 	global.PlayerDeath = true;
 }
+
+if (global.CurrentHealth <= 0){
+	instance_destroy();
+	global.PlayerDeath = true;
+}

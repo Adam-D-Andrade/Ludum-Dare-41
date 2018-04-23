@@ -52,9 +52,9 @@ for (var i = 0; i < global.CurrentHealth; i++) {
 var percentEnergy = (global.Energy/global.MAX_ENERGY) * 100
 var eleft, etop, eright, ebot;
 eleft	= guiLeft;
-etop	= guiTop + 2*sh;
+etop	= guiTop + sh*1.1;
 eright	= 400;
-ebot	= etop + 64;
+ebot	= etop + 48;
 draw_healthbar(eleft, etop, eright, ebot, percentEnergy, c_black, c_red, c_yellow, 0, true, false);
 
 

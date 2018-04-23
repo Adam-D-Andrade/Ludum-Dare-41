@@ -46,7 +46,6 @@ if object_exists(oPlayer){
 	}
 }
 
-
 ///////////Player Death///////////////
 if (global.PlayerDeath == true){
 	instance_create_layer(0,0, "GUI", oDeathTransition);
