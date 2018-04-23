@@ -2,13 +2,12 @@
 // Purpose:
 
 enum Items {
-	CarrotSeed,		//0
-	WateringCan,	//1
-	Shovel,			//2
-	Last,			//3
-	PotatoSeed,     //4
-	CucumberSeed,   //5
-	SquashSeed    //6
+	CarrotSeed,		
+	WateringCan,	
+	Shovel,			
+	PotatoSeed,     
+	CucumberSeed,   
+	SquashSeed    
 }
 
 DefaultItem = Items.WateringCan;

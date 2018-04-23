@@ -17,6 +17,8 @@ global.MovingUp		= false;
 global.ScrollSpeed	= 4;
 
 global.LapCount		= 0;
+global.LevelDone	= false;
+
 global.PlayerDeath	= false;
 
 global.DeathCount	= 0;

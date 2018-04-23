@@ -51,3 +51,19 @@ if (global.PlayerDeath == true){
 	instance_create_layer(0,0, "GUI", oDeathTransition);
 	global.PlayerDeath = false;
 }
+
+
+
+
+if keyboard_check_pressed(ord("P")){
+	global.LevelDone = true;
+}
+
+/////////LEVEL COMPLETED /////////////////////
+if (global.LevelDone){
+	instance_create_layer(x,y, "GUI", oLevelTransition);
+	global.LevelDone = false;
+}
+
+
+
