@@ -1,7 +1,7 @@
 /// @description 
 // Purpose:
 
-ysp += yDir;
+ysp += yDir * moveSpeed;
 
 if HitTop {
 	yDir *= -1;
@@ -16,5 +16,8 @@ if HitBottom {
  
 if ysp > max_ysp{
 	ysp = max_ysp;
+}
+if ysp < -max_ysp{
+	ysp = -max_ysp;
 }
 
