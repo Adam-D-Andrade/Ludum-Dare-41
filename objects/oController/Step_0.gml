@@ -20,6 +20,8 @@ if keyboard_check_pressed(ord("R")) {
 }
 
 
+
+
 ///////////Level Win//////////////////
 if (!global.LevelDone){
 	if (global.carrotCounter >= global.WinConditions[? "carrotWin"]) {
