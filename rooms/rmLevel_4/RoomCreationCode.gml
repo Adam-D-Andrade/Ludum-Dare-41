@@ -4,8 +4,7 @@ global.Horizontal    = true;
 global.MovingRight    = true;
 
 // Setup win condition values for level
-global.carrotWin = 5;
-global.potatoWin = 5;
-global.cucumberWin = 0;
+global.carrotWin = 0;
+global.potatoWin = 0;
+global.cucumberWin = 20;
 global.squashWin = 0;
-
