@@ -26,3 +26,10 @@ if FadeOut {
 	}
 }
 
+
+if (!FadeIn && !instance_exists(oNextDay) && !Spawned) {
+	Spawned = !Spawned;
+	with(instance_create_layer(x, y, "GUI", oNextDay)){
+		depth = other.depth -1;
+	}
+}

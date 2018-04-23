@@ -16,3 +16,9 @@ if FadeOut {
 	}
 }
 
+if ((DrawDeath == false) && (!FadeIn)) {
+	DrawDeath= true;
+	with(instance_create_layer(x, y, "GUI", oYouDied)){
+		depth = other.depth -1;
+	}
+}
