@@ -16,7 +16,7 @@ HitTop = false;
 HitBottom = false;
 
 ysp = 0;
-max_ysp = 10;
+max_ysp = 2;
 xsp = 0;
 
 yDir = -1;

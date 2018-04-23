@@ -6,16 +6,18 @@
 
 Code:
 -Gui for Win condition ************************
+-Heart generator **
 
 Design:
 -Levels? *******************
 
 Art:
--Character
+-Character **** NO MORE DOG
 -Other shit, maybe tiles?
 
 Polish:
 -Particles?
+-Some sort of effect when spawning into a new lap instead of just insta popping in
 
 
 
