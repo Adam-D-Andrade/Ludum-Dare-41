@@ -38,10 +38,10 @@ else {
 }
 
     
-max_xsp = 30;
-max_ysp = 6;
+max_xsp = 10;
+max_ysp = 4;
     
-movespeed = 4;
+movespeed = 3;
     
 ///Get Tile Map
 var l = layer_get_id("CollisionMap");
