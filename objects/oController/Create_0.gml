@@ -10,6 +10,7 @@ global.CurrentHealth = global.MAX_HEALTH;
 
 global.MAX_ENERGY	= 100;
 global.Energy		= 100;
+global.PercentEnergy = 100;
 
 global.Horizontal	= false;
 global.MovingRight	= false;

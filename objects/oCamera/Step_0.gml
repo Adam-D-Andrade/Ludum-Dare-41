@@ -16,15 +16,15 @@ if instance_exists(oPlayer){
 			x -= global.ScrollSpeed;
 		}
 	}
-	else {
-		x = oPlayer.x;
-		if global.MovingUp{	
-			y -= global.ScrollSpeed;
-		}
-		else {
-			y += global.ScrollSpeed;
-		}		
-	}
+	//else {
+	//	x = oPlayer.x;
+	//	if global.MovingUp{	
+	//		y -= global.ScrollSpeed;
+	//	}
+	//	else {
+	//		y += global.ScrollSpeed;
+	//	}		
+	//}
 }
 
 

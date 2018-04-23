@@ -28,7 +28,8 @@ for (var i = 0; i < global.CurrentHealth; i++) {
 }
 
 //DrawHealthBar
-var percentEnergy = (global.Energy/global.MAX_ENERGY) * 100
+global.PercentEnergy = (global.Energy/global.MAX_ENERGY)
+percentEnergy		= (global.Energy/global.MAX_ENERGY) * 100;
 var eleft, etop, eright, ebot;
 eleft	= guiLeft;
 etop	= guiTop + sh*1.1;
