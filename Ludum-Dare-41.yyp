@@ -607,6 +607,14 @@
             }
         },
         {
+            "Key": "3fd31111-5f48-4602-b4bd-7430f6ccd8e2",
+            "Value": {
+                "id": "03259478-1ae9-4d43-b0a0-70dae5c8b511",
+                "resourcePath": "sprites\\HarvestGoals\\HarvestGoals.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "400242ee-8155-448e-8f85-123801e93661",
             "Value": {
                 "id": "b2a3c92a-9fbe-4219-9c5f-0014129ad575",
@@ -2391,6 +2399,14 @@
             }
         },
         {
+            "Key": "e064fc09-c5ba-438a-9e11-5560e4b29372",
+            "Value": {
+                "id": "1c51db43-8060-4d80-b48f-cd5792572160",
+                "resourcePath": "sprites\\sprGuiWrapper\\sprGuiWrapper.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e0de745d-5f3c-4aaa-997a-da7fd4b58336",
             "Value": {
                 "id": "2128e345-e9d9-4d90-8547-1aaea2e7cf2c",
@@ -2475,6 +2491,14 @@
             "Value": {
                 "id": "180616c5-5382-4790-8c29-83f9beb1356e",
                 "resourcePath": "scripts\\EaseOutExpo\\EaseOutExpo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ef6b2b60-646d-4887-a60b-5b55831fe1ea",
+            "Value": {
+                "id": "1a2e14ff-2b33-400b-b62b-c137727c287d",
+                "resourcePath": "scripts\\DrawNineSliceStretched\\DrawNineSliceStretched.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2908,7 +2932,8 @@
         "2befc192-a5ba-4ea5-aa1f-5df90217ce5f",
         "c00cc16b-9037-4738-afaf-99d51971a32c",
         "a5c38813-3398-40c5-901a-f7b346cc86fd",
-        "96c1227c-fdbb-43b0-ba9f-5753d7c991e1"
+        "96c1227c-fdbb-43b0-ba9f-5753d7c991e1",
+        "ef6b2b60-646d-4887-a60b-5b55831fe1ea"
     ],
     "tutorial": ""
 }

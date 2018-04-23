@@ -37,7 +37,7 @@ global.cucumberSatisfied = false;
 
 //GUI variables
 guiLeft = 80;
-guiTop = 50;
+guiTop = 80;
 
 ////////////WIN CONDITIONS//////////////////////////////////
 // Setup win condition values for level

@@ -58,11 +58,6 @@ if (global.PlayerDeath == true){
 }
 
 
-if keyboard_check_pressed(ord("P")){
-	//global.LevelDone = true;
-	global.carrotCounter = 5;
-}
-
 /////////LEVEL COMPLETED /////////////////////
 if (global.LevelDone){
 	instance_create_layer(x,y, "GUI", oLevelTransition);

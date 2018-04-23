@@ -54,26 +54,29 @@ if (global.potatoCounter > global.potatoWin) global.potatoCounter = global.potat
 if (global.squashCounter > global.squashWin) global.squashCounter = global.squashWin;
 
 
-var alignLeft	= camera_get_view_width(view_camera[0]) - 400;
-spacing			= sprite_get_width(sprGUICarrot)*0.75; //can make this smaller actually
-var hSpacing	= sprite_get_height(sprGUICarrot);
+var alignLeft	= camera_get_view_width(view_camera[0]) - 300;
+spacing			= 20;//sprite_get_width(sprGUICarrot)*0.5; //can make this smaller actually
+var hSpacing	= 40;//sprite_get_height(sprGUICarrot)*0.75;
 var guiElements = (global.carrotWin > 0) + (global.cucumberWin > 0) + (global.potatoWin > 0) + (global.squashWin > 0)
 var h = 0;
-
-var padding = 60;
+var ItemHeightAlign = guiTop + 64;
+var ItemLeftAlign	= alignLeft;
+var padding = 40;
 
 //draw_text_ext_transformed_color(alignLeft, guiTop, "Harvest Goals: ", 0, 10000, 1, 1, 0, c_yellow, c_yellow, c_yellow,c_yellow,1);
 
 
 while(h < guiElements) {
 	//draw_roundrect_color_ext(alignLeft-padding, guiTop+40, right - 40, guiTop+padding+(hSpacing*h), 10, 0, c_yellow, c_yellow, false);
+	DrawNineSliceStretched(sprGuiWrapper,ItemLeftAlign-padding, guiTop-padding, alignLeft+250, guiTop+180, c_white);
+	draw_sprite_ext(HarvestGoals, 0, alignLeft+100, guiTop+10, 0.6, 0.6, 0, c_white, 1);
 	//Carrot gui
 	if (global.carrotWin > 0) {
 		for (var i = 0; i < global.carrotWin; i++) {
-				draw_sprite_ext(sprGUICarrot, 1, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);
+				draw_sprite_ext(sprGUICarrot, 1, ItemLeftAlign+(spacing*i), ItemHeightAlign+(hSpacing*h), 0.5, 0.5, 0, c_white, 1);
 		}
 		for (var i = 0; i < global.carrotCounter; i++) {
-			draw_sprite_ext(sprGUICarrot, 0, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);	
+			draw_sprite_ext(sprGUICarrot, 0, ItemLeftAlign+(spacing*i), ItemHeightAlign+(hSpacing*h), 0.5, 0.5, 0, c_white, 1);	
 		}
 		h++;
 	}
@@ -81,10 +84,10 @@ while(h < guiElements) {
 	//potato gui
 	if (global.potatoWin > 0) {
 		for (var i = 0; i < global.potatoWin; i++) {
-				draw_sprite_ext(sprGUIPotato, 1, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);
+				draw_sprite_ext(sprGUIPotato, 1, ItemLeftAlign+(spacing*i), ItemHeightAlign+(hSpacing*h), 0.5, 0.5, 0, c_white, 1);
 		}
 		for (var i = 0; i < global.potatoCounter; i++) {
-			draw_sprite_ext(sprGUIPotato, 0, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);	
+			draw_sprite_ext(sprGUIPotato, 0, ItemLeftAlign+(spacing*i), ItemHeightAlign+(hSpacing*h), 0.5, 0.5, 0, c_white, 1);	
 		}
 		h++;
 	}
@@ -92,10 +95,10 @@ while(h < guiElements) {
 	//cucumber gui
 	if (global.cucumberWin > 0) {
 		for (var i = 0; i < global.cucumberWin; i++) {
-			draw_sprite_ext(sprGUICucumber, 1, alignLeft+(spacing*i), guiTop+(hSpacing*h) , 0.7, 0.7, 0, c_white, 1);
+			draw_sprite_ext(sprGUICucumber, 1, ItemLeftAlign-10+(spacing*i), ItemHeightAlign+(hSpacing*h) , 0.5, 0.5, 0, c_white, 1);
 		}
 		for (var i = 0; i < global.cucumberCounter; i++) {
-			draw_sprite_ext(sprGUICucumber, 0, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);	
+			draw_sprite_ext(sprGUICucumber, 0, ItemLeftAlign-10+(spacing*i), ItemHeightAlign+(hSpacing*h), 0.5, 0.5, 0, c_white, 1);	
 		}
 		h++;
 	}
