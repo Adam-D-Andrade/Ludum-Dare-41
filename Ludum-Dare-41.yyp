@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "5847bd25-0ac6-4ba8-8f7d-b0dfe3f1d1d0",
+            "Value": {
+                "id": "6acba2d8-0b3a-4b82-a941-db4424884aed",
+                "resourcePath": "sprites\\sprEnergyGenerator\\sprEnergyGenerator.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "597a4ceb-6be6-4c42-ac11-f19088ebd922",
             "Value": {
                 "id": "2c7bcfc4-6bd1-460d-94d0-179eca5392b7",
@@ -1035,6 +1043,14 @@
             "Value": {
                 "id": "ead6f961-41ff-4f7c-aa03-374f926760c2",
                 "resourcePath": "views\\64bde4dc-b09e-4e5f-9a50-d9b61692d7da.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "65b19aa3-63d0-45be-8c80-23ee23ca3b28",
+            "Value": {
+                "id": "7a74a305-450d-49f9-bde2-3adfc0150d6d",
+                "resourcePath": "views\\65b19aa3-63d0-45be-8c80-23ee23ca3b28.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1644,6 +1660,14 @@
                 "id": "2038eba5-917e-4d2c-9529-ec92db7fff67",
                 "resourcePath": "scripts\\score__\\score__.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9ed9640b-310e-4d5f-9a33-cf25cb25177a",
+            "Value": {
+                "id": "318834a9-b092-4f2f-919b-bf81688d78df",
+                "resourcePath": "objects\\oEnergyDrinkGenerator\\oEnergyDrinkGenerator.yy",
+                "resourceType": "GMObject"
             }
         },
         {
