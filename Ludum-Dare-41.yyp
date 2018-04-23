@@ -935,6 +935,14 @@
             }
         },
         {
+            "Key": "581d14fb-cbe7-474b-9c63-57876c075d3d",
+            "Value": {
+                "id": "b1b1f0a4-f03a-4b96-a708-0e0cd5a5d41d",
+                "resourcePath": "sprites\\sprGUICucumber\\sprGUICucumber.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5847bd25-0ac6-4ba8-8f7d-b0dfe3f1d1d0",
             "Value": {
                 "id": "6acba2d8-0b3a-4b82-a941-db4424884aed",
@@ -1556,6 +1564,14 @@
                 "id": "bd696e46-3be7-4b36-bf2b-e4418e8382f6",
                 "resourcePath": "views\\8fbab7d4-7442-4161-8a5a-7e4eee4b0f08.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "901edaec-af20-4316-aae7-6a28a3f81fa8",
+            "Value": {
+                "id": "f4abec7f-ab05-4189-be41-7a6238d30325",
+                "resourcePath": "sprites\\sprGUICarrot\\sprGUICarrot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2644,6 +2660,14 @@
                 "id": "9f00bbb9-5deb-40dd-88b1-f9ea8fba00a1",
                 "resourcePath": "scripts\\EaseInOutCubic\\EaseInOutCubic.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fbfc9498-fb7d-4f05-ba85-219b4540a151",
+            "Value": {
+                "id": "73765fb2-dd90-47a4-97a3-f20accb4c70d",
+                "resourcePath": "views\\fbfc9498-fb7d-4f05-ba85-219b4540a151.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

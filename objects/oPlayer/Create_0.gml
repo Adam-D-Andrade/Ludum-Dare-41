@@ -7,5 +7,5 @@ FlashRed = true;
 iframes = 0;
 
 // Debug
-debugMode = true;
+debugMode = false;
 

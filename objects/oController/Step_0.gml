@@ -21,28 +21,33 @@ if keyboard_check_pressed(ord("R")) {
 
 
 ///////////Level Win//////////////////
-if object_exists(oPlayer){
+if (!global.LevelDone){
 	if (global.carrotCounter >= global.WinConditions[? "carrotWin"]) {
-		carrotSatisfied = true;
+		global.carrotSatisfied = true;
 	}
 	if (global.potatoCounter >= global.WinConditions[? "potatoWin"]) {
-		potatoSatisfied = true;
+		global.potatoSatisfied = true;
 	}
 	if (global.squashCounter >= global.WinConditions[? "squashWin"]) {
-		squashSatisfied = true;
+		global.squashSatisfied = true;
 	}
 	if (global.cucumberCounter >= global.WinConditions[? "cucumberWin"]) {
-		cucumberSatisfied = true;
+		global.cucumberSatisfied = true;
 	}
 
-	if cucumberSatisfied and carrotSatisfied and squashSatisfied and potatoSatisfied {
-		global.PlayerDeath = true;	
+	if global.cucumberSatisfied and global.carrotSatisfied and global.squashSatisfied and global.potatoSatisfied {
+		global.LevelDone = true;	
 		
 		// Reset vars
-		carrotSatisfied = false;
-		potatoSatisfied = false;
-		squashSatisfied = false;
-		cucumberSatisfied = false;
+		global.carrotSatisfied = false;
+		global.potatoSatisfied = false;
+		global.squashSatisfied = false;
+		global.cucumberSatisfied = false;
+		
+		global.carrotCounter = 0;
+		global.potatoCounter = 0;
+		global.squashCounter = 0;
+		global.cucumberCounter = 0;
 	}
 }
 
@@ -53,10 +58,9 @@ if (global.PlayerDeath == true){
 }
 
 
-
-
 if keyboard_check_pressed(ord("P")){
-	global.LevelDone = true;
+	//global.LevelDone = true;
+	global.carrotCounter = 5;
 }
 
 /////////LEVEL COMPLETED /////////////////////

@@ -13,10 +13,10 @@ draw_text(right, 20, "Press 'Escape' to quit");
 
 //Draw carrot tracker
 draw_set_text(c_black, fntAddisAbaba, fa_right, fa_top);
-draw_text(right, 60, "Carrots: " + string(global.carrotCounter));
-draw_text(right, 80, "Potatoes: " + string(global.potatoCounter));
-draw_text(right, 100, "Cucumbers: " + string(global.cucumberCounter));
-draw_text(right, 120, "Squashes: " + string(global.squashCounter));
+draw_text(right, 200+60, "Carrots: " + string(global.carrotCounter));
+draw_text(right, 200+80, "Potatoes: " + string(global.potatoCounter));
+draw_text(right, 200+100, "Cucumbers: " + string(global.cucumberCounter));
+draw_text(right, 200+120, "Squashes: " + string(global.squashCounter));
 
 
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -56,6 +56,58 @@ if instance_exists(oPlayer){
 	}
 }
 
+/////////////////////////////////////////////////////////////////////////////////
+///////////-------------Harvest Goals--------------------///////////////////////
+/////////////////////////////////////////////////////////////////////////////////
+
+if (global.carrotCounter > global.carrotWin) global.carrotCounter = global.carrotWin;
+if (global.cucumberCounter > global.cucumberWin) global.cucumberCounter = global.cucumberWin;
+if (global.potatoCounter > global.potatoWin) global.potatoCounter = global.potatoWin;
+if (global.squashCounter > global.squashWin) global.squashCounter = global.squashWin;
+
+
+var alignLeft = camera_get_view_width(view_camera[0]) - 400;
+spacing = sprite_get_width(sprGUICarrot); //can make this smaller actually
+var hSpacing = sprite_get_height(sprGUICarrot)*1.1;
+var guiElements = (global.carrotWin > 0) + (global.cucumberWin > 0) + (global.potatoWin > 0) + (global.squashWin > 0)
+var h = 0;
+while(h < guiElements) {
+	//Carrot gui
+	if (global.carrotWin > 0) {
+		for (var i = 0; i < global.carrotWin; i++) {
+				draw_sprite_ext(sprGUICarrot, 1, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);
+		}
+		for (var i = 0; i < global.carrotCounter; i++) {
+			draw_sprite_ext(sprGUICarrot, 0, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);	
+		}
+		h++;
+	}
+
+	//potato gui
+	if (global.potatoWin > 0) {
+		for (var i = 0; i < global.carrotWin; i++) {
+				draw_sprite_ext(sprGUICarrot, 1, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);
+		}
+		for (var i = 0; i < global.carrotCounter; i++) {
+			draw_sprite_ext(sprGUICarrot, 0, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);	
+		}
+		h++;
+	}
+
+	//cucumber gui
+	if (global.cucumberWin > 0) {
+		for (var i = 0; i < global.cucumberWin; i++) {
+			draw_sprite_ext(sprGUICucumber, 1, alignLeft+(spacing*i), guiTop+(hSpacing*h) , 0.7, 0.7, 0, c_white, 1);
+		}
+		for (var i = 0; i < global.cucumberCounter; i++) {
+			draw_sprite_ext(sprGUICucumber, 0, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);	
+		}
+		h++;
+	}
+	
+//draw_text(right/2, camera_get_view_height(view_camera[0])/2, "GUI Elements: " + string(guiElements));
+//draw_text(right/2, camera_get_view_height(view_camera[0])/2+ 40, "GUI Elements: " + string(h));
+}
 /*
 
 enum Items {
