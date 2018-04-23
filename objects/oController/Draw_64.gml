@@ -19,6 +19,8 @@ draw_text(right, 100, "Cucumbers: " + string(global.cucumberCounter));
 draw_text(right, 120, "Squashes: " + string(global.squashCounter));
 
 
+
+
 ////////////////////////////////////////////////////////////////////////////////////////
 ////////-----------------------GUI---------------------------///////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////
@@ -50,8 +52,8 @@ draw_healthbar(eleft, etop, eright, ebot, percentEnergy, c_black, c_red, c_green
 
 //Draw current item
 // Sprite[Items.Shovel]		= sprShovel;
-if instance_exists(oPlayer){
-	draw_sprite_ext("oops", 0, eleft+20, guiTop+(2*sh), 0.7, 0.7, 0, c_white, 1);
+if object_exists(oPlayer){
+	//draw_sprite_ext(Sprite[Items.CarrotSeed], 0, eleft+20, guiTop+(2*sh), 0.7, 0.7, 0, c_white, 1);
 }
 
 /*
