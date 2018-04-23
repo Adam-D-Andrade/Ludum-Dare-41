@@ -42,6 +42,6 @@ if instance_exists(oPlayer){
 }
 
 // Reset occupied status to false when occupyingInstance is destroyed (harvested)
-if !instance_exists(occupyingInstance) and occupied = true {
+if !instance_exists(occupyingInstance) and (occupied == true) {
 	occupied = false;	
 }

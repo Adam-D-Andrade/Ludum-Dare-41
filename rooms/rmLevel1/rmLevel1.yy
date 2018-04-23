@@ -2,7 +2,7 @@
 {
     "name": "rmLevel1",
     "id": "e831e39f-7055-4d94-a2e0-67e265709cfd",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -90,7 +90,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "InstancesBG",
+            "name": "InstancesFG",
             "id": "8452863b-7991-49f4-8003-bf7a01b68674",
             "depth": 200,
             "grid_x": 32,
@@ -116,7 +116,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "InstancesFG",
+            "name": "InstancesBG",
             "id": "3b283068-d9c6-4dc4-9792-d7e651c7dc81",
             "depth": 300,
             "grid_x": 32,
