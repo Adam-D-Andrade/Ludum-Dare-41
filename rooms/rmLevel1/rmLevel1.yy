@@ -2,7 +2,7 @@
 {
     "name": "rmLevel1",
     "id": "e831e39f-7055-4d94-a2e0-67e265709cfd",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
