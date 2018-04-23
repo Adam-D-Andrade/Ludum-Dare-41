@@ -1,8 +1,8 @@
 {
-    "id": "996dac4f-b52b-4b4d-8709-0384bde040f4",
+    "id": "96c1227c-fdbb-43b0-ba9f-5753d7c991e1",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "script180",
+    "name": "ScreenShake",
     "IsCompatibility": false,
     "IsDnD": false
 }

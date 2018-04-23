@@ -5,38 +5,26 @@ var right = camera_get_view_width(view_camera[0]);
 
 
 draw_set_text(c_white, fntAddisAbaba, fa_right, fa_top);
-//draw_text(camera_get_view_x(view_camera[0]), camera_get_view_x(view_camera[0]), "Press 'R' to restart the room");
-//draw_text(camera_get_view_x(view_camera[0]), camera_get_view_x(view_camera[0])+20, "Press 'Escape' to quit");
-draw_text(right, 0, "Press 'R' to restart the room");
-draw_text(right, 20, "Press 'Escape' to quit");
-
-
-//Draw carrot tracker
-draw_set_text(c_black, fntAddisAbaba, fa_right, fa_top);
-draw_text(right, 200+60, "Carrots: " + string(global.carrotCounter));
-draw_text(right, 200+80, "Potatoes: " + string(global.potatoCounter));
-draw_text(right, 200+100, "Cucumbers: " + string(global.cucumberCounter));
-draw_text(right, 200+120, "Squashes: " + string(global.squashCounter));
-
 
 ////////////////////////////////////////////////////////////////////////////////////////
 ////////-----------------------GUI---------------------------///////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////
 //Draw Some Hearts
-var sw, sh, spacing
+var sw, sh, spacing, xoffset
 
 sw			= sprite_get_width(sprHeartPiece);
+xoffset		= sprite_get_xoffset(sprHeartPiece);
 sh			= sprite_get_height(sprHeartPiece);
-spacing	= sw*1.2;
+spacing		= sw*0.8;
 
 //DrawEmpty Hearts
 for (var i = 0; i < global.MAX_HEALTH; i++) {
-	draw_sprite_ext(sprHeartPiece, 1, guiLeft+(0.2*sw)+(spacing*i), guiTop+(0.5*sh), 0.7, 0.7, 0, c_white, 1);
+	draw_sprite_ext(sprHeartPiece, 1, guiLeft+xoffset+(spacing*i), guiTop+(0.5*sh), 0.7, 0.7, 0, c_white, 1);
 }
 
 //DrawFull Hearts
 for (var i = 0; i < global.CurrentHealth; i++) {
-	draw_sprite_ext(sprHeartPiece, 0, guiLeft+(0.2*sw)+(spacing*i), guiTop+(0.5*sh), 0.7, 0.7, 0, c_white, 1);	
+	draw_sprite_ext(sprHeartPiece, 0, guiLeft+xoffset+(spacing*i), guiTop+(0.5*sh), 0.7, 0.7, 0, c_white, 1);	
 }
 
 //DrawHealthBar
@@ -66,12 +54,19 @@ if (global.potatoCounter > global.potatoWin) global.potatoCounter = global.potat
 if (global.squashCounter > global.squashWin) global.squashCounter = global.squashWin;
 
 
-var alignLeft = camera_get_view_width(view_camera[0]) - 400;
-spacing = sprite_get_width(sprGUICarrot); //can make this smaller actually
-var hSpacing = sprite_get_height(sprGUICarrot)*1.1;
+var alignLeft	= camera_get_view_width(view_camera[0]) - 400;
+spacing			= sprite_get_width(sprGUICarrot)*0.75; //can make this smaller actually
+var hSpacing	= sprite_get_height(sprGUICarrot);
 var guiElements = (global.carrotWin > 0) + (global.cucumberWin > 0) + (global.potatoWin > 0) + (global.squashWin > 0)
 var h = 0;
+
+var padding = 60;
+
+//draw_text_ext_transformed_color(alignLeft, guiTop, "Harvest Goals: ", 0, 10000, 1, 1, 0, c_yellow, c_yellow, c_yellow,c_yellow,1);
+
+
 while(h < guiElements) {
+	//draw_roundrect_color_ext(alignLeft-padding, guiTop+40, right - 40, guiTop+padding+(hSpacing*h), 10, 0, c_yellow, c_yellow, false);
 	//Carrot gui
 	if (global.carrotWin > 0) {
 		for (var i = 0; i < global.carrotWin; i++) {
@@ -85,11 +80,11 @@ while(h < guiElements) {
 
 	//potato gui
 	if (global.potatoWin > 0) {
-		for (var i = 0; i < global.carrotWin; i++) {
-				draw_sprite_ext(sprGUICarrot, 1, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);
+		for (var i = 0; i < global.potatoWin; i++) {
+				draw_sprite_ext(sprGUIPotato, 1, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);
 		}
-		for (var i = 0; i < global.carrotCounter; i++) {
-			draw_sprite_ext(sprGUICarrot, 0, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);	
+		for (var i = 0; i < global.potatoCounter; i++) {
+			draw_sprite_ext(sprGUIPotato, 0, alignLeft+(spacing*i), guiTop+(hSpacing*h), 0.7, 0.7, 0, c_white, 1);	
 		}
 		h++;
 	}

@@ -36,7 +36,7 @@ global.squashSatisfied = false;
 global.cucumberSatisfied = false;
 
 //GUI variables
-guiLeft = 50;
+guiLeft = 80;
 guiTop = 50;
 
 ////////////WIN CONDITIONS//////////////////////////////////
