@@ -1,17 +1,21 @@
 
+-Start Menu
+-Credits
+-Look into Death System
+-Remove all debug text
+
 Code:
--Gui for 
+-Gui for Win condition ************************
 
 Design:
+-Levels? *******************
 
 Art:
+-Character
+-Other shit, maybe tiles?
 
 Polish:
+-Particles?
 
-GUI AND BARS OF DATA EVERYWHERE
-Win condition
-Redo Artwork (Dog Fucker)
-Design some Levels
-Basic Enemies
 
 
