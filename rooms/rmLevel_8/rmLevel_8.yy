@@ -1,6 +1,6 @@
 
 {
-    "name": "rmLevel3",
+    "name": "rmLevel_8",
     "id": "524426f6-0a8a-4255-847d-e1911b4ca34f",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
