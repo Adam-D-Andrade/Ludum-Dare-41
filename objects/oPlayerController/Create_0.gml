@@ -9,7 +9,8 @@ yscale = image_yscale;
 xscale = image_xscale;
 	
 //States & Variables
-ActiveItem = -1;
+//This will equate to None
+ActiveItem = 2;
 
 ///Declare states
 direc           = 0;

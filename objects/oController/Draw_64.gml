@@ -51,7 +51,9 @@ draw_healthbar(eleft, etop, eright, ebot, percentEnergy, c_black, c_red, c_green
 //Draw current item
 // Sprite[Items.Shovel]		= sprShovel;
 if instance_exists(oPlayer){
-	draw_sprite_ext("oops", 0, eleft+20, guiTop+(2*sh), 0.7, 0.7, 0, c_white, 1);
+	if instance_exists(oItem){
+		draw_sprite_ext(oItem.Sprite[oPlayer.ActiveItem], 0, eleft+20, guiTop+(2*sh), 0.7, 0.7, 0, c_white, 1);
+	}
 }
 
 /*
