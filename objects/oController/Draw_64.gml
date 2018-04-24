@@ -96,10 +96,10 @@ while(h < guiElements) {
 	//cucumber gui
 	if (global.cucumberWin > 0) {
 		for (var i = 0; i < global.cucumberWin; i++) {
-			draw_sprite_ext(sprGUICucumber, 1, ItemLeftAlign-10+(spacing-5*i), ItemHeightAlign+(hSpacing*h) , 0.5, 0.5, 0, c_white, 1);
+			draw_sprite_ext(sprGUICucumber, 1, ItemLeftAlign-8+((spacing-4)*i), ItemHeightAlign+(hSpacing*h) , 0.5, 0.5, 0, c_white, 1);
 		}
 		for (var i = 0; i < global.cucumberCounter; i++) {
-			draw_sprite_ext(sprGUICucumber, 0, ItemLeftAlign-10+(spacing-5*i), ItemHeightAlign+(hSpacing*h), 0.5, 0.5, 0, c_white, 1);	
+			draw_sprite_ext(sprGUICucumber, 0, ItemLeftAlign-8+((spacing-4)*i), ItemHeightAlign+(hSpacing*h), 0.5, 0.5, 0, c_white, 1);	
 		}
 		h++;
 	}
