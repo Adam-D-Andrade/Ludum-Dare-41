@@ -38,8 +38,8 @@ else {
 }
 
     
-max_xsp = 10;
-max_ysp = 4;
+max_xsp = 12;
+max_ysp = 5;
     
 movespeed = 3;
     
