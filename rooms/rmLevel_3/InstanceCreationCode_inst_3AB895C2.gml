@@ -1,2 +1,2 @@
 ItemType = Items.PotatoSeed;
-sprite_index = Sprite[Items.PotatoSeed];
+sprite_index = sprSeedBagPotato;

@@ -1,2 +1,2 @@
 ItemType = Items.CucumberSeed;
-sprite_index = Sprite[Items.CucumberSeed];
+sprite_index = sprSeedBagCucumber;
