@@ -5,6 +5,8 @@ MakeUnique();
 audio_master_gain(0.5);
 audio_play_sound(Potatocrusher, 1, true);
 
+CanEnd = true;
+
 global.MAX_HEALTH = 3;
 global.CurrentHealth = global.MAX_HEALTH;
 

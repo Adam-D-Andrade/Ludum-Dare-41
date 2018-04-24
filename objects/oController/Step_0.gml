@@ -4,6 +4,21 @@
 //Initialize Controls
 InitGameInput();
 
+if (room == rmTitle){
+	if keyboard_check_pressed(vk_anykey){
+		room_goto_next();
+	}
+}
+
+if (room == rmCredits){
+	if (CanEnd){
+		alarm[0] = 300;
+	}
+	if keyboard_check_pressed(vk_anykey){	
+		game_end();
+	}
+}
+
 global.RightView	= camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]);
 global.LeftView		= camera_get_view_x(view_camera[0]);
 global.TopView		= camera_get_view_y(view_camera[0]);
@@ -54,18 +69,21 @@ if (!global.LevelDone){
 }
 
 ///////////Player Death///////////////
-if (global.PlayerDeath == true){
-	instance_create_layer(0,0, "GUI", oDeathTransition);
-	audio_play_sound(sndGameOver, 1, false);
-	global.PlayerDeath = false;
+if (room != rmTitle and room != rmCredits){
+	if (global.PlayerDeath == true){
+		instance_create_layer(0,0, "GUI", oDeathTransition);
+		audio_play_sound(sndGameOver, 1, false);
+		global.PlayerDeath = false;
+	}
 }
 
 
 /////////LEVEL COMPLETED /////////////////////
-if (global.LevelDone){
-	instance_create_layer(x,y, "GUI", oLevelTransition);
-	global.LevelDone = false;
+if (room != rmTitle and room != rmCredits){
+	if (global.LevelDone){
+		instance_create_layer(x,y, "GUI", oLevelTransition);
+		global.LevelDone = false;
+	}
 }
-
 
 
